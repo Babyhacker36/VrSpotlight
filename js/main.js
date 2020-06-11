@@ -261,9 +261,9 @@ $(document).ready(function () {
 
 
 
-
-const volumeUp = $('#mutePlay > i:last-child').show()
 const volumeMute = $('#mutePlay > i:first-child').hide()
+const volumeUp = $('#mutePlay > i:last-child').show()
+
 const mainVideo = document.getElementById('video-bg');
 volumeUp.click(() => {
     mainVideo.muted = false;
