@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Vr Spotlight</title>
+
+        <!-- font awesome  -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- BootStrap css -->
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous">
+
+        <!-- Custom css -->
+        <link rel="stylesheet" href="/vrspotlight/css/style.css">
+
+        <link rel="stylesheet" href="/vrspotlight/css/aos.css">
+
+        <link rel="stylesheet" href="./css/medeiaQuery.css">
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css"/>
+
+    </head>
+    
+<body>
+<div class="container-fluid">
+
+
+    <header id="videoBackground">
+
+
+            <div id="navbar">
+                <div id="navbarLeft">
+                    <img src="/vrspotlight/img/VRSpotlightLogoblue.png" alt="VrSpotLightLogo" id="logo">
+
+                </div>
+                <!-- end of navbarLeft -->
+
+                <!-- navigation links -->
+
+                <div id="navbarCenter">
+                    <nav>
+                        <ul class="list-inline">
+                            <li class="nav-item active list-inline-item">
+                                <a href="#videoBackground" class="nav-link scroll">Home</a>
+
+                            <li class="nav-item list-inline-item">
+                                <a href="#new" class="nav-link scroll">New</a>
+                            </li>
+
+                            <li class="nav-item list-inline-item">
+                                <a href="#virtualReality" class="nav-link scroll">Virtual Reality</a>
+                            </li>
+
+                            <li class="nav-item list-inline-item">
+                                <a href="#games" class="nav-link scroll">Games</a>
+                            </li>
+
+                            <li class="nav-item list-inline-item">
+                                <a href="#headsets" class="nav-link scroll">Headsets</a>
+                            </li>
+
+                        </ul>
+                    </nav>
+                </div>
+                <!-- end of navbarCenter -->
+
+                <div id="navbarRight">
+
+                    <i class="fa fa-bars fa-2x" id="navBtn" onclick="openNav()"></i>
+                </a>
+            </div>
+            <!-- end of navbarRight -->
+
+        </div><!-- end of the navbar container -->
+
+
+
+
+        <div id="space"></div>
+        <div id="boxContainer">
+            <div id="bannerBox">
+                <div id="banner" class="content">
+                    <span>
+                        FEEL THE POWER OF VIRTUAL REALITY!</span>
+                </div>
+                <!-- end of the banner -->
+            </div>
+            <!-- end of the box -->
+        </div>
+
+        <!-- video container -->
+        <div class="video-container">
+            <video autoplay loop id="video-bg">
+                <source src="/vrspotlight/img/oculusRift6.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- end of the video container -->
+
+        <!-- scroll animation icon  -->
+
+        <div id="scrollObject">
+            <span>scroll down</span>
+            <div class="mousey">
+                <div class="scroller"></div>
+            </div>
+        </div>
+
+
+<div id="mutePlay">
+
+    <i class="fas fa-volume-mute"></i>
+    <i class="fas fa-volume-up"></i>
+</div>
+
+
+
+    </header>
+<div id="supdiv">
+<img src="./img/vrart2div.jpg" class="img-fluid" id="supdivImg"  alt="">
+
+</div>
+
+   <!-- end of Video container -->
+
+    <!-- ====== Toggle overlay full div slide menu ======== -->
+
+    <div id="myNav" class="overlay">
+
+        <!-- close button -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+            <i class="fa fa-times fa-xs" id="navBtnClose" aria-hidden="true"></i>
+        </a>
+
+        <!-- Navigation Section from sliding div  -->
+        <div class="overlay-content"></div>
+        <div id="navoc">
+            <a href="#videoBackground" class="scroll">Home</a>
+            <a href="#new" class="scroll">New</a>
+            <a href="#virtualReality" class="scroll">Virtual Reality</a>
+            <a href="#games" class="scroll">Games</a>
+            <a href="#headsets" class="scroll">Headsets</a>
+        </div>
+    </div>
+
+<!-- =============== First Section (NEW) ============= -->
+
+
+  <div class="row" id="new">
+
+            <div class="col-xl-6" id='leftColumn'>
+
+                <div
+                    data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-duration="600"
+                    id="box">
+
+                    <blockquote>"The Future of VR is here."<span></span>
+                    </blockquote>
+                    <img
+                        src="/vrspotlight/img/VRSlogan.png"
+                        class="img-fluid"
+                        alt="Responsive image"
+                        id='vrHeadset'>
+                </div>
+
+            </div>
+            <!-- end of the column 6 -->
+
+            <div class="col-xl-6">
+
+                <div
+                    data-aos="fade-left"
+                    data-aos-duration="600"
+                    data-aos-offset="300"
+                    id="box2">
+                    <!-- people image -->
+                    <img
+                        src="/vrspotlight/img/vrdiv4.png"
+                        class="img-fluid"
+                        alt="Responsive image"
+                        id='vrPlayer'>
+                </div>
+                <!-- end of the inner div -->
+            </div>
+            <!-- end of column 6 -->
+
+        </div>
+        <!-- end of the row -->
+
+
+
+          <!-- =============  Virtual Reality div =============== -->
+
+        <div class="row" id="vrRow">
+            <div class="col-12" id="virtualReality">
+                <div
+                    id="youtubeVideo"
+                    data-aos="zoom-in"
+                    data-aos-duration="600"
+                    data-aos-offset="300">
+
+
+                  <iframe width="360" height="215" src="https://www.youtube.com/embed/5q6BcQq_yhw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
+
+                </div>
+
+            </div>
+           
+
+        </div><!-- end vrow -->
+
+
+
+<!-- ===================== Games div ======================== -->
+
+     <div class="row">
+
+                    <div class="col-12" id="games">
+
+                        <!-- this is the first row -->
+
+                        <div class="row" id="topSection">
+                            <!-- left section  -->
+                            <div
+                                class="col-6"
+                                id="gamesPic1"
+                                data-aos="fade-right"
+                                data-aos-offset="200"
+                                data-aos-easing="ease-in-sine"
+                                data-aos-duration="1000"></div>
+                            <!-- right section -->
+                            <div class="col-6" id="topColSectionRight">
+
+                                <div class="row" id="rowTop">
+                                    <div
+                                        class="col"
+                                        id="gamesPic2"
+                                        data-aos="fade-zoom-in"
+                                        data-aos-offset="200"
+                                        data-aos-easing="ease-in-sine"
+                                        data-aos-duration="800"></div>
+
+                                    <div
+                                        class="col"
+                                        id="gamesPic3"
+                                        data-aos="fade-zoom-in"
+                                        data-aos-offset="200"
+                                        data-aos-easing="ease-in-sine"
+                                        data-aos-duration="1000"></div>
+
+                                </div>
+                                <!-- row -->
+
+                                <div class="row" id="rowBottom">
+                                    <div
+                                        class="col"
+                                        id="gamesPic4"
+                                        data-aos="fade-zoom-in"
+                                        data-aos-offset="200"
+                                        data-aos-easing="ease-in-sine"
+                                        data-aos-duration="1200"></div>
+
+                                    <div
+                                        class="col"
+                                        id="gamesPic5"
+                                        data-aos="fade-zoom-in"
+                                        data-aos-offset="200"
+                                        data-aos-easing="ease-in-sine"
+                                        data-aos-duration="1400"></div>
+
+                                </div>
+                                <!-- row -->
+
+                            </div>
+
+                        </div>
+                        <!-- end of the top section row -->
+
+                        <!-- end of the first row -->
+
+                        <!-- this is the second row  -->
+
+                        <div class="row" id="middleRow">
+
+                            <div
+                                class="col-4"
+                                id="gamesPic6"
+                                data-aos="fade-right"
+                                data-aos-offset="200"
+                                data-aos-easing="ease-in-sine"
+                                data-aos-duration="600"></div>
+                            <div
+                                class="col-4"
+                                id="gamesPic7"
+                                data-aos="fade-zoom-in"
+                                data-aos-offset="200"
+                                data-aos-easing="ease-in-sine"
+                                data-aos-duration="600"></div>
+
+                            <div
+                                class="col-4"
+                                id="gamesPic8"
+                                data-aos="fade-left"
+                                data-aos-offset="200"
+                                data-aos-easing="ease-in-sine"
+                                data-aos-duration="600"></div>
+
+                        </div>
+                        <!-- end of the second row -->
+
+                        <!-- This is the third row -->
+
+                        <div class="row" id="bottomRow">
+
+                            <div
+                                class="col-6"
+                                id="gamesPic9"
+                                data-aos="fade-up"
+                                data-aos-offset="200"
+                                data-aos-easing="ease-in-sine"
+                                data-aos-duration="700"></div>
+                            <div
+                                class="col-6"
+                                id="gamesPic10"
+                                data-aos="fade-up"
+                                data-aos-offset="200"
+                                data-aos-easing="ease-in-sine"
+                                data-aos-duration="700"></div>
+
+                        </div>
+
+                    </div>
+                    <!-- end of the coljumn -->
+                </div>    
+
+  
+
+
+
+
+  <!-- ===================== Headsets div ======================== -->
+
+    
+
+        <div class="row" id="headsets">
+
+            
+
+            <div class="col-xl-6" id="changingDiv" data-aos="fade-right"
+                                data-aos-offset="200"
+                                data-aos-easing="ease-in-sine"
+                                data-aos-duration="1000" >
+                
+                
+                <div id="divC1">
+
+                <H1>HALOLENS</H1>
+
+                <img src="./img/halolens.jpg" class="img-fluid" alt="Responsive image" id="buyVRIMG">
+
+                <p>Explore the most comfortable and immersive mixed reality experience available. See what makes HoloLens 2 the ultimate mixed reality device, with solutions that deliver value instantly. You’ll get all the benefits of using cloud and AI services from Microsoft—including reliability, security, and scalability.</p>
+                <p>See more holograms at once through the greatly increased field of view. Read text and see intricate details on 3D images more easily and comfortably with industry-leading resolution.</p>
+
+                     </div>
+
+                     <div id="divC2">
+
+                <H1>PLAYSTATION</H1>
+  <img src="./img/vrPlayerLive.jpg" class="img-fluid" alt="Responsive image" id="buyVRIMG">
+
+                <p>The PlayStation VR (officially abbreviated as PS VR), known by the codename Project Morpheus during development, is a virtual reality headset developed by Sony Interactive Entertainment, which was released in October 2016. </p>
+<p>
+    
+It was designed to be fully functional with the PlayStation 4 and PlayStation 5 home video game consoles. In certain games and demos for the VR, the player wearing the headset acts separately from other players without the headset. 
+</p>
+                     </div>
+                     
+
+<div id="divC3">
+
+                <H1>Oculus</H1>
+               
+            <img src="./img/OCULUSBUY.jpg" class="img-fluid" alt="Responsive image" id="buyVRIMG">    
+                <p>
+                  Oculus Rift is a lineup of virtual reality headsets developed and manufactured by Oculus VR, a division of Facebook Inc., released on March 28, 2016.
+                  </P>
+<P>
+In 2012 Oculus initiated a Kickstarter campaign to fund the Rift's development, after being founded as an independent company two months prior. The project proved successful, raising almost US$2.5 million from around 10,000 contributors.[2] Then in March 2014, Oculus was purchased by Facebook for $2 billion.
+
+
+                
+                
+                </p>
+
+                     </div>
+
+                     
+<div id="divC4">
+
+                <H1>SAMSUNG GEAR</H1>
+
+                  <img src="./img/SAMSUNGGEARDEMO.jpg" class="img-fluid" alt="Responsive image" id="buyVRIMG">   
+                <p>The Samsung Gear VR is a virtual reality headset developed by Samsung Electronics, in collaboration with Oculus VR, and manufactured by Samsung. The headset was released on November 27, 2015. </p>
+<P>When in use, a compatible Samsung Galaxy device acts as the headset's display and processor, while the Gear VR unit itself acts as the controller, which contains the field of view, as well as a custom inertial measurement unit, or IMU, for rotational tracking, which connects to the smartphone via USB-C or micro-USB.  </P>
+
+
+                     </div>
+
+            </div>
+
+
+            <div class="col-xl-6  secondNavDiv" data-aos="fade-left"
+                                        data-aos-offset="200"
+                                        data-aos-easing="ease-in-sine"
+                                        data-aos-duration="800">
+
+                <!-- this is the mini navagation -->
+<div id="navigation">
+
+
+
+                <ul id="miniUl">
+                   <li id='halolens'>
+                    HaloLens
+                       
+                    </li>
+
+
+                    <li id='playStation'>
+                    PlayStation
+                       
+                    </li>
+                    
+                    <li id='oculus'>
+                        Oculus
+                    </li>
+
+                    <li id='samsung'>
+                        Samsung
+                    </li>
+                </ul>
+</div>
+
+<!-- 1st buy div -->
+<div id="mainBuyDiv">
+<div id="RtBuyDiv1HaloLense">
+
+
+<div id="OCRBuyNowText">
+<h1>GO ON ADVENTURES</h1>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uIHPPtPBgHk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+<p>Get started on day one with HoloLens 2 and the ultimate mixed reality communication app from Microsoft, available together.</p>
+<button type="button" class="btn btn-primary btn-lg">Contact a Reseller</button> 
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<!-- 2nd buy div -->
+
+<div id="RtBuyDiv2Play">
+
+
+<div id="OCRBuyNowText">
+<h1>DISCOVER A NEW WORLD OF PLAY </h1>
+
+
+
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-GXvYexMoZY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+<p>Your heart will race. Your pupils will dilate.Your instincts will kick in and take over as you discover new worlds. 
+</p> 
+<p></p>
+<button type="button" class="btn btn-primary btn-lg">Buy Now</button>  <span>$389 USD*</span> 
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<!-- 3rd buy div -->
+
+
+<div id="RtBuyDiv3Oc">
+
+
+<div id="OCRBuyNowText">
+<h1>OCULUS RIFT IS BACK</h1>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iS0AJIbcKVs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<p>A limited supply of Oculus Rift products are now avaialiable.
+    Get the original VR Headset that changed the PC Gaming World. 
+</p> 
+<p>Our most advancedPC VR gaming headset, check out the <a href="#virtualReality" class="nav-link scroll" id="CheckOut">Oculus Rift S. </a></p>
+<button type="button" class="btn btn-primary btn-lg">Buy Now</button>  <span>$299 USD*</span> 
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<!-- 4th Buy div -->
+
+<div id="RtBuyDiv3Samsung">
+
+
+<div id="OCRBuyNowText">
+<h1>Virtual Reality Headset</h1>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-zmdN8Z0qEY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>It's easy to get lost in the world of virtual reality because the Gear VR is engineered to feel lighter.</p>
+<button type="button" class="btn btn-primary btn-lg">Buy Now</button>  <span>$199 USD*</span> 
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<!-- end main buy div -->
+
+
+
+
+
+<!-- end of navigation  -->
+
+
+
+</div><!-- end of right col 7 div -->
+
+
+        </div>
+        <!-- end of the headsets row -->
+
+
+
+
+         <footer>Created by Louis Carter for
+
+            <a href="http://nerdstackmedia.com/">
+                <font style="color:#00ffff;">  Nerd Stack Media</font>
+            </a>
+            &copy2020</footer>
+    
+</div><!-- end of the container-fluid -->
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- animation setup scripts -->
+    <script src="/vrspotlight/js/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+
+    <!-- Boot Strap javascript -->
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- Jquery cdn  -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- animation scripts -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TimelineMax.min.js"></script>
+
+        
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+
+
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js"></script>
+
+    <!-- modal script -->
+
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+
+    <!-- External BootSrap javascript File -->
+
+    <script src="/vrspotlight/js/bootstrap.js"></script>
+
+    <!-- Custom Javascript File -->
+
+    <script src="/vrspotlight/js/jquery.js"></script>
+
+    <script src="/vrspotlight/js/main.js"></script>
+
+       <!-- font awesome script -->
+
+        <script src="https://kit.fontawesome.com/0b8b2323ef.js" crossorigin="anonymous"></script>
+
+
+
+
+</body>
+</html>

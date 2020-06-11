@@ -1,0 +1,4430 @@
+@media only screen and (min-width : 1024px) {
+
+   #logo {
+    width: 55%;
+    height: 50px;
+    position: relative;
+    top: 2px;
+}
+
+#navbar {
+    z-index: 99;
+     
+}
+
+.nav-link  {
+    font-size: .9em !important;
+   
+}
+
+#navbarLeft {
+    float: left;
+    width: 10%; 
+    position: relative; 
+    top: 50%; 
+    right: 0%; 
+    transform: translateY(-50%); 
+}
+
+
+
+#navbarCenter {
+    visibility: visible;
+    width: 80%;
+    float: left;
+    position: relative;
+    top: 50%; 
+    transform: translateY(-50%);
+    text-align: center;
+
+}
+
+#navbarRight {
+    float: left;
+    width: 10%; 
+    position: relative;
+    top: 15%; 
+
+}
+
+#supdiv {
+  display: none;
+}
+ 
+/* Home section */
+
+/* feel the power text */
+
+#boxContainer {
+    top: 45%;
+    left: 50%;
+}
+
+
+#boxContainer span {
+    font-size: 2.5em;
+
+}
+#videoBackground {
+height:100vh
+}
+
+.video-container {
+    width: 100%;
+    height: 100vh;
+    
+}
+
+#video-bg {
+ margin-left: -100px;
+margin-top: 16px;
+width:130%;
+height: 100%;   
+}
+
+
+#mutePlay {
+   
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+  
+#scrollObject {
+    position: absolute;
+    top: 730px;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    right: 0;
+    bottom: 0;
+    width: 110px;
+    height: 55px;
+    z-index: 1;
+}
+
+
+
+
+/* slide in menu */
+.overlay {
+    z-index: 2;
+}
+
+
+.fa-times {
+    position: relative;
+    top: 0px;
+    right: 20px;
+}
+
+#navoc a {
+    padding: 30px 0;
+}
+
+
+/* New Section */
+
+#youtubeVideo {
+    position: absolute;
+    border: 1px solid gray;
+    width: 500px;
+    height: 300px;
+    /* z-index: 99; */
+    top: 30%;
+    left: 27%; 
+    /* transform: translate(-50%, -50%); */
+  
+}
+
+#youtubeVideo iframe {
+width: 100%;
+height: 100%;
+}
+
+
+
+
+/* Headsets section */
+#headsets {
+font-size: 1.1em;
+padding: 0 20px;
+padding-top: 70px;
+}
+
+#headsets h1 {
+font-size: 1.2em;
+padding-bottom: 10px;
+color: #00ffff;
+}
+
+/* Right buy divs */
+
+#divC1, #divC2, #divC3, #divC4 {
+    padding-top: 40px;
+
+}
+
+#headsets iframe {
+    width: 100%;
+    height: 300px;
+}
+
+/* images right headset div */
+#buyVRIMG {
+ 
+    height: 270px;
+}
+
+#headsets p {
+    padding: 0 15px;
+    padding-top: 20px;
+    font-size: 1em;
+    line-height: 1.2em;
+    color: #fff;
+    text-align: left;
+}
+
+
+#miniUl {
+    list-style-type: none;
+    width: 100%;
+    text-align: right;
+    margin-left: 0px;
+    
+}
+
+ul#miniUl li {
+    list-style-type: none;
+    color: #00ffff; 
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1em;
+    padding-left: 22px;
+    text-decoration: none;
+}
+
+
+footer {
+    color: #fff;
+    text-align: center;
+    height: 30px;
+    font-size: .7em;
+    padding-top: 10px;
+}
+
+
+}
+
+@media only screen and (min-width : 1280px) {
+
+   #logo {
+    width: 55%;
+    height: 50px;
+    position: relative;
+    top: 2px;
+}
+
+#navbar {
+    z-index: 99;
+}
+.nav-link  {
+    font-size: 1em !important;
+   
+}
+
+#navbarLeft {
+    float: left;
+    width: 10%; 
+    position: relative; 
+    top: 50%; 
+    right: 0%; 
+    transform: translateY(-50%); 
+}
+
+
+
+#navbarCenter {
+    visibility: visible;
+    width: 80%;
+    float: left;
+    position: relative;
+    top: 50%; 
+    transform: translateY(-50%);
+    text-align: center;
+
+}
+
+#navbarRight {
+    float: left;
+    width: 10%; 
+    position: relative;
+    top: 15%; 
+
+}
+
+#supdiv {
+  display: none;
+}
+ 
+/* Home section */
+
+/* feel the power text */
+
+#boxContainer {
+    top: 45%;
+    left: 50%;
+}
+
+
+#boxContainer span {
+    font-size: 2.5em;
+
+}
+#videoBackground {
+height:100vh
+}
+
+.video-container {
+    width: 100%;
+    height: 100vh;
+    
+}
+
+#video-bg {
+margin-left: -150px;
+margin-top: 16px;
+width:130%;
+height: 100%;   
+}
+
+
+#mutePlay {
+   
+    position: absolute;
+    bottom: 40px;
+    right: 15px;
+}
+  
+#scrollObject {
+    position: absolute;
+    top: 730px;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    right: 0;
+    bottom: 0;
+    width: 110px;
+    height: 55px;
+    z-index: 1;
+}
+
+
+
+
+/* slide in menu */
+.overlay {
+    z-index: 2;
+}
+
+
+.fa-times {
+    position: relative;
+    top: 0px;
+    right: 20px;
+}
+
+#navoc a {
+    padding: 30px 0;
+}
+
+
+/* New Section */
+
+#youtubeVideo {
+    position: absolute;
+    border: 1px solid gray;
+    width: 550px;
+    height: 350px;
+    /* z-index: 99; */
+    top: 28%;
+    left: 30%; 
+    /* transform: translate(-50%, -50%); */
+  
+}
+
+#youtubeVideo iframe {
+width: 100%;
+height: 100%;
+ top: 40%;
+    left: 00%; 
+}
+
+
+
+
+/* Headsets section */
+#headsets {
+font-size: 1.1em;
+padding: 0 20px;
+padding-top: 70px;
+}
+
+#headsets h1 {
+font-size: 1.2em;
+padding-bottom: 10px;
+color: #00ffff;
+}
+
+/* Right buy divs */
+
+#divC1, #divC2, #divC3, #divC4 {
+    padding-top: 40px;
+
+}
+
+#headsets iframe {
+    width: 100%;
+    height: 300px;
+}
+
+/* images right headset div */
+#buyVRIMG {
+ 
+    height: 270px;
+}
+
+#headsets p {
+    padding: 0 15px;
+    padding-top: 20px;
+    font-size: 1em;
+    line-height: 1.2em;
+    color: #fff;
+    text-align: left;
+}
+
+
+#miniUl {
+    list-style-type: none;
+    width: 100%;
+    text-align: right;
+    margin-left: 0px;
+    
+}
+
+ul#miniUl li {
+    list-style-type: none;
+    color: #00ffff; 
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1em;
+    padding-left: 22px;
+    text-decoration: none;
+}
+
+
+footer {
+    color: #fff;
+    text-align: center;
+    height: 30px;
+    font-size: .7em;
+    padding-top: 10px;
+}
+
+
+
+}
+
+
+@media only screen and (min-width : 1366px) {
+
+   #logo {
+    width: 55%;
+    height: 50px;
+    position: relative;
+    top: 2px;
+}
+
+#navbar {
+    z-index: 99;
+}
+
+.nav-item a {
+    font-size: 1em !important;
+    padding: 0 15px !important;
+}
+
+#navbarLeft {
+    float: left;
+    width: 10%; 
+    position: relative; 
+    top: 50%; 
+    right: 0%; 
+    transform: translateY(-50%); 
+}
+
+
+
+#navbarCenter {
+    visibility: visible;
+    width: 80%;
+    float: left;
+    position: relative;
+    top: 50%; 
+    transform: translateY(-50%);
+    text-align: center;
+
+}
+
+#navbarRight {
+    float: left;
+    width: 10%; 
+    position: relative;
+    top: 15%; 
+
+}
+
+#supdiv {
+  display: none;
+}
+ 
+/* Home section */
+
+/* feel the power text */
+
+#boxContainer {
+    top: 45%;
+    left: 50%;
+}
+
+
+#boxContainer span {
+    font-size: 2.5em;
+
+}
+#videoBackground {
+height:100vh
+}
+
+.video-container {
+    width: 100%;
+    height: 100vh;
+    
+}
+
+#video-bg {
+margin-left: -200px;
+margin-top: 16px;
+width:130%;
+height: 100%;   
+}
+
+
+#mutePlay {
+   
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+}
+  
+#scrollObject {
+    position: absolute;
+    top: 730px;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    right: 0;
+    bottom: 0;
+    width: 110px;
+    height: 55px;
+    z-index: 1;
+}
+
+
+
+
+/* slide in menu */
+.overlay {
+    z-index: 2;
+}
+
+
+.fa-times {
+    position: relative;
+    top: 0px;
+    right: 20px;
+}
+
+#navoc a {
+    padding: 30px 0;
+}
+
+
+/* New Section */
+
+#youtubeVideo {
+    position: absolute;
+    border: 1px solid gray;
+    width: 550px;
+    height: 350px;
+    /* z-index: 99; */
+    top: 28%;
+    left: 30%; 
+    /* transform: translate(-50%, -50%); */
+  
+}
+
+#youtubeVideo iframe {
+width: 100%;
+height: 100%;
+ top: 40%;
+    left: 00%; 
+}
+
+
+
+
+/* Headsets section */
+#headsets {
+font-size: 1.1em;
+padding: 0 20px;
+padding-top: 70px;
+}
+
+#headsets h1 {
+font-size: 1.2em;
+padding-bottom: 10px;
+color: #00ffff;
+}
+
+/* Right buy divs */
+
+#divC1, #divC2, #divC3, #divC4 {
+    padding-top: 40px;
+
+}
+
+#headsets iframe {
+    width: 100%;
+    height: 300px;
+}
+
+/* images right headset div */
+#buyVRIMG {
+ 
+    height: 270px;
+}
+
+#headsets p {
+    padding: 0 15px;
+    padding-top: 20px;
+    font-size: 1em;
+    line-height: 1.2em;
+    color: #fff;
+    text-align: left;
+}
+
+
+#miniUl {
+    list-style-type: none;
+    width: 100%;
+    text-align: right;
+    margin-left: 0px;
+    
+}
+
+ul#miniUl li {
+    list-style-type: none;
+    color: #00ffff; 
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1em;
+    padding-left: 22px;
+    text-decoration: none;
+}
+
+
+footer {
+    color: #fff;
+    text-align: center;
+    height: 30px;
+    font-size: .7em;
+    padding-top: 10px;
+}
+
+
+
+}
+
+
+@media only screen and (min-width : 1440px) {
+
+   #logo {
+    width: 55%;
+    height: 50px;
+    position: relative;
+    top: 2px;
+}
+
+
+.nav-item a {
+    font-size: 1.1em !important;
+      padding: 0 20px !important;
+   
+}
+
+
+
+#scrollObject {
+    position: absolute;
+    cursor: pointer;
+    top: 850px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    right: 0;
+    bottom: 0;
+    width: 110px;
+    height: 55px;
+    z-index: 1;
+}
+
+#mutePlay {
+   
+    position: absolute;
+    bottom: 25px;
+    right: 15px;
+}
+
+/* Virtual Reality video  */
+
+#vrRow iframe {
+    width: 600px;
+    height: 415px;
+    
+}
+
+/* slide in menu */
+.overlay {
+    z-index: 2;
+}
+
+
+.fa-times {
+    position: relative;
+    top: -30px;
+    right: 20px;
+}
+
+#navoc a {
+    padding: 30px 0;
+}
+
+ul#miniUl li{
+   font-size: 1.2em;
+   
+}
+
+#headsets {
+font-size: 1.4em;
+padding: 0 20px;
+padding-top: 70px;
+}
+
+#headsets h1 {
+font-size: 1.3em;
+padding-bottom: 10px;
+color: #00ffff;
+}
+
+/* Right buy divs */
+
+#divC1, #divC2, #divC3, #divC4 {
+    padding-top: 40px;
+
+}
+
+#headsets iframe {
+    width: 100%;
+    height: 300px;
+}
+
+/* images right headset div */
+#buyVRIMG {
+ 
+    height: 270px;
+}
+
+#headsets p {
+    padding: 0 15px;
+    padding-top: 20px;
+    font-size: 1em;
+    line-height: 1.2em;
+    color: #fff;
+    text-align: left;
+}
+
+
+
+
+}
+
+@media only screen and (min-width : 1600px) {
+
+   #logo {
+    width: 55%;
+    height: 50px;
+    position: relative;
+    top: 2px;
+}
+
+
+.nav-item a {
+    font-size: 1.2em !important;
+      padding: 0 30px !important;
+   
+}
+
+
+#scrollObject {
+    position: absolute;
+    cursor: pointer;
+    top: 850px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    right: 0;
+    bottom: 0;
+    width: 110px;
+    height: 55px;
+    z-index: 1;
+}
+
+#mutePlay {
+   
+    position: absolute;
+    bottom: 25px;
+    right: 15px;
+}
+
+
+
+.video-container {
+    width: 100%;
+    height: 100vh;
+    
+}
+
+#video-bg {
+margin-left: -230px;
+margin-top: 16px;
+width:130%;
+height: 100%;   
+}
+
+#youtubeVideo {
+    position: absolute;
+    border: 1px solid gray;
+    width: 650px;
+    height: 350px;
+    /* z-index: 99; */
+    top: 30%;
+    left: 31%; 
+    /* transform: translate(-50%, -50%); */
+  
+}
+
+#youtubeVideo iframe {
+width: 100%;
+height: 100%;
+ top: 40%;
+    left: 00%; 
+}
+
+/* Virtual Reality video  */
+
+#vrRow iframe {
+    width: 600px;
+    height: 415px;
+    
+}
+
+/* slide in menu */
+.overlay {
+    z-index: 2;
+}
+
+
+.fa-times {
+    position: relative;
+    top: -30px;
+    right: 20px;
+}
+
+#navoc a {
+    padding: 30px 0;
+}
+
+ul#miniUl li{
+   font-size: 1.2em;
+   
+}
+
+#headsets {
+font-size: 1.4em;
+padding: 0 20px;
+padding-top: 70px;
+}
+
+#headsets h1 {
+font-size: 1.3em;
+padding-bottom: 10px;
+color: #00ffff;
+}
+
+/* Right buy divs */
+
+#divC1, #divC2, #divC3, #divC4 {
+    padding-top: 40px;
+
+}
+
+#headsets iframe {
+    width: 80%;
+    height: 330px;
+}
+
+/* images right headset div */
+#buyVRIMG {
+    width: 80%;
+    height: 330px;
+}
+
+#headsets p {
+    padding: 0 15px;
+    padding-top: 20px;
+    font-size: .9em;
+    line-height: 1.4em;
+    color: #fff;
+    text-align: left;
+}
+
+
+footer {
+    color: #fff;
+    text-align: center;
+    height: 30px;
+    font-size: .9em;
+    padding-top: 10px;
+}
+
+}
+
+@media only screen and (min-width : 1680px) {
+
+   #logo {
+    width: 55%;
+    height: 50px;
+    position: relative;
+    top: 2px;
+}
+
+
+.nav-item a {
+    font-size: 1.4em !important;
+      padding: 0 25px !important;
+   
+}
+
+
+#scrollObject {
+    position: absolute;
+    cursor: pointer;
+    top: 1000px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    right: 0;
+    bottom: 0;
+    width: 110px;
+    height: 55px;
+    z-index: 1;
+}
+
+#mutePlay {
+   
+    position: absolute;
+    bottom: 25px;
+    right: 15px;
+}
+
+
+
+.video-container {
+    width: 100%;
+    height: 100vh;
+    
+}
+
+#video-bg {
+margin-left: -230px;
+margin-top: 16px;
+width:130%;
+height: 100%;   
+}
+
+#youtubeVideo {
+    position: absolute;
+    border: 1px solid gray;
+    width: 650px;
+    height: 350px;
+    /* z-index: 99; */
+    top: 30%;
+    left: 31%; 
+    /* transform: translate(-50%, -50%); */
+  
+}
+
+#youtubeVideo iframe {
+width: 100%;
+height: 100%;
+ top: 40%;
+    left: 00%; 
+}
+
+/* Virtual Reality video  */
+
+#vrRow iframe {
+    width: 600px;
+    height: 415px;
+    
+}
+
+/* slide in menu */
+.overlay {
+    z-index: 2;
+}
+
+
+.fa-times {
+    position: relative;
+    top: -30px;
+    right: 20px;
+}
+
+#navoc a {
+    padding: 30px 0;
+}
+
+ul#miniUl li{
+   font-size: 1.2em;
+   
+}
+
+#headsets {
+font-size: 1.4em;
+padding: 0 20px;
+padding-top: 70px;
+}
+
+#headsets h1 {
+font-size: 1.3em;
+padding-bottom: 10px;
+color: #00ffff;
+}
+
+/* Right buy divs */
+
+#divC1, #divC2, #divC3, #divC4 {
+    padding-top: 40px;
+
+}
+
+#headsets iframe {
+    width: 80%;
+    height: 330px;
+}
+
+/* images right headset div */
+#buyVRIMG {
+    width: 80%;
+    height: 330px;
+}
+
+#headsets p {
+    padding: 0 15px;
+    padding-top: 20px;
+    font-size: .9em;
+    line-height: 1.4em;
+    color: #fff;
+    text-align: left;
+}
+
+
+footer {
+    color: #fff;
+    text-align: center;
+    height: 30px;
+    font-size: 1.1em;
+    padding-top: 10px;
+}
+
+
+
+
+
+}
+
+@media only screen and (min-width : 1920px) {
+
+    #logo {
+    width: 55%;
+    height: 50px;
+    position: relative;
+    top: 2px;
+}
+
+
+.nav-item a {
+    font-size: 1.3em !important;
+      padding: 0 50px !important;
+   
+}
+
+
+#scrollObject {
+    position: absolute;
+    cursor: pointer;
+    top: 870px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    right: 0;
+    width: 110px;
+    height: 55px;
+    z-index: 1;
+}
+
+#mutePlay {
+   
+    position: absolute;
+    bottom: 35px;
+    right: 15px;
+}
+
+blockquote {
+    font-size: 3em;
+}
+
+#vrHeadset {
+    margin-left: 95px !important;
+}
+
+
+
+.video-container {
+    width: 100%;
+    height: 100vh;
+    
+}
+
+#video-bg {
+margin-left: 0px;
+margin-top: 16px;
+width:100%;
+height: 120%;   
+}
+
+#youtubeVideo {
+    position: absolute;
+    width: 850px;
+    height: 500px;
+    /* z-index: 99; */
+    top: 27%;
+    left: 29%; 
+    /* transform: translate(-50%, -50%); */
+  
+}
+
+#youtubeVideo iframe {
+width: 100% !important;
+height: 100% !important;
+ top: 40%;
+left: 00%; 
+}
+
+/* Virtual Reality video  */
+
+#vrRow iframe {
+    width: 600px;
+    height: 415px;
+    
+}
+
+/* slide in menu */
+.overlay {
+    z-index: 2;
+}
+
+
+.fa-times {
+    position: relative;
+    top: 0px;
+    right: 20px;
+}
+
+#navoc a {
+    padding: 30px 0;
+}
+
+ul#miniUl li{
+   font-size: 1.2em;
+   
+}
+
+#headsets {
+font-size: 1.4em;
+padding: 0 20px;
+padding-top: 70px;
+}
+
+#headsets h1 {
+font-size: 1.3em;
+padding-bottom: 10px;
+color: #00ffff;
+}
+
+/* Right buy divs */
+
+#divC1, #divC2, #divC3, #divC4 {
+    padding-top: 40px;
+
+}
+
+#headsets iframe {
+    width: 80%;
+    height: 330px;
+}
+
+/* images right headset div */
+#buyVRIMG {
+    width: 80%;
+    height: 330px;
+}
+
+#headsets p {
+    padding: 0 15px;
+    padding-top: 20px;
+    font-size: 1.1em;
+    line-height: 1.4em;
+    color: #fff;
+    text-align: left;
+}
+
+
+footer {
+    color: #fff;
+    text-align: center;
+    height: 30px;
+    font-size: 1.1em;
+    padding-top: 10px;
+}
+
+
+
+
+}
+
+@media only screen and (min-width : 2560px) {
+
+   #logo {
+    width: 40%;
+    height: 50px;
+    position: relative;
+    top: 2px;
+}
+
+
+.nav-item a {
+    font-size: 2.3em !important;
+    padding: 0 60px !important;
+   
+}
+
+
+.video-container{
+    margin-top: 200px;
+    width: 100%;
+    height: 100vh !important;
+    position: relative;
+    text-align: center;
+    border: none;
+}
+
+#video-bg {
+  position: absolute; 
+  top: 0px;
+ left: 0px; 
+ width: 100%;
+ height: 100vh;
+}
+
+/* Virtual Reality video  */
+
+#vrRow iframe {
+    width: 800px;
+    height:515px;
+    
+}
+
+/* slide in menu */
+.overlay {
+    z-index: 2;
+}
+
+
+.fa-times {
+    position: relative;
+    top: -30px;
+    right: 20px;
+}
+
+#navoc a {
+    padding: 30px 0;
+}
+
+ul#miniUl li{
+   font-size: 1.2em;
+   
+}
+
+#headsets {
+font-size: 1.4em;
+padding: 0 20px;
+padding-top: 70px;
+}
+
+#headsets h1 {
+font-size: 1.3em;
+padding-bottom: 10px;
+color: #00ffff;
+}
+
+/* Right buy divs */
+
+#divC1, #divC2, #divC3, #divC4 {
+    padding-top: 40px;
+
+}
+
+#headsets iframe {
+    width: 90%;
+    height: 410px;
+}
+
+/* images right headset div */
+#buyVRIMG {
+    width:90%;
+    height: 410px;
+}
+
+#headsets p {
+    padding: 0 15px;
+    padding-top: 20px;
+    font-size:1.1em;
+    line-height: 1.4em;
+    color: #fff;
+    text-align: left;
+}
+
+
+.mousey {
+ 
+    position: relative;
+    margin-top: -900px !important;
+    bottom: -900px !important;
+    left: 50%;
+    
+
+}
+
+
+
+}
+
+
+
+/* ipads */
+
+
+@media only screen and (max-width:1024px) and (min-height: 1366px) {
+
+body {
+    width: 90vw !important;
+}
+
+  #logo {
+    width: 55%;
+    height: 50px;
+    position: relative;
+    top: 2px;
+    left: 20px
+}
+
+#navbar {
+    z-index: 99;
+    width: 110%;
+margin-left: -100px;
+     
+}
+
+#navBtnClose {
+    margin-right: 200px;
+}
+
+#navoc a {
+    padding-top: 0px;
+    padding-bottom: 300px;
+    font-size: 3.7em;
+   margin-right: 120px;
+}
+
+.nav-link  {
+    font-size: .9em !important;
+    padding: 0px;
+   
+}
+
+
+
+#navbarLeft {
+    float: left;
+    width: 10%; 
+    position: relative; 
+    top: 50%; 
+    right: 0%; 
+    transform: translateY(-50%); 
+}
+
+
+
+#navbarCenter {
+    visibility: visible;
+    width: 80%;
+    float: left;
+    position: relative;
+    top: 50%; 
+    transform: translateY(-50%);
+    text-align: center;
+
+}
+
+#navbarRight {
+    float: left;
+    width: 10%; 
+    position: relative;
+    top: 15%; 
+
+}
+
+#supdiv {
+  display: inline-block;
+  height: 50vh;
+}
+ 
+
+
+#supdivImg {
+    width: 70%;
+    height:85%;
+    margin-top: 40px;
+    position: relative;
+    left: 120px;
+  
+}
+/* Home section */
+
+/* feel the power text */
+
+#boxContainer {
+    top: 25%;
+    left: 48%;
+    width: 70%;
+}
+
+
+#boxContainer span {
+    font-size: 1.5em;
+
+}
+#videoBackground {
+height:40vh
+}
+
+.video-container {
+    width: 100%;
+    height: 50vh;
+    
+}
+
+#video-bg {
+margin-left: -100px;
+margin-top: 16px;
+width:100%;
+height: 100%;   
+}
+
+
+#mutePlay {
+    position: absolute;
+    height: 30px;
+    top: 570px;
+    right: 120px;
+    z-index: 99;
+}
+  
+#scrollObject {
+    position: absolute;
+    top: 580px;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    right: 0;
+    bottom: 0;
+    width: 110px;
+    height: 55px;
+    z-index: 1;
+}
+
+
+
+
+/* slide in menu */
+.overlay {
+    z-index: 2;
+}
+
+
+.fa-times {
+    position: relative;
+    top: 0px;
+    right: 20px;
+}
+
+#navoc a {
+    padding: 30px 0;
+}
+
+
+/* virtual reality section */
+
+#new {
+    padding-top: 0px !important;
+    margin-top: 0px;
+    height: 85vh;
+}
+
+blockquote {
+margin-top: -100px;
+font-size: 2em;
+position: relative;
+right: 50px;
+}
+
+#vrPlayer {
+    width: 100%;
+    height: 120%;
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+
+}
+
+#vrHeadset {
+    height: 70%;
+    width: 70%;
+    margin-top: 0px;
+    margin-left: 100px;
+}
+
+#youtubeVideo {
+    position: absolute;
+    border: 1px solid gray;
+    width: 800px;
+    height: 500px;
+    /* z-index: 99; */
+    top: 30%;
+    left: 4%; 
+    /* transform: translate(-50%, -50%); */
+  
+}
+
+#youtubeVideo iframe {
+width: 100%;
+height: 100%;
+}
+
+
+
+
+/* Headsets section */
+#headsets {
+font-size: 1.1em;
+padding: 0 20px;
+padding-top: 70px;
+}
+
+#headsets h1 {
+font-size: 1.2em;
+padding-bottom: 10px;
+color: #00ffff;
+}
+
+#secondNavDiv {
+    order: 1;
+}
+
+#changingDiv {
+   order: 2; 
+}
+
+
+/* Right buy divs */
+
+#divC1, #divC2, #divC3, #divC4 {
+    padding-top: 40px;
+
+}
+
+#headsets iframe {
+    width: 70%;
+    height: 400px;
+}
+
+/* images right headset div */
+#buyVRIMG {
+ 
+    height: 370px;
+}
+
+#headsets p {
+   padding-right: 50px;
+    padding-top: 20px;
+    font-size: 1.4em;
+    line-height: 1.2em;
+    color: #fff;
+    text-align: left;
+}
+
+
+#miniUl {
+    list-style-type: none;
+    width: 100%;
+    text-align: right;
+    margin-left: -170px;
+    
+}
+
+ul#miniUl li {
+    list-style-type: none;
+    color: #00ffff; 
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding-left: 22px;
+    text-decoration: none;
+}
+
+
+footer {
+    color: #fff;
+    text-align: center;
+    height: 30px;
+    font-size: 1.1em;
+    margin-top: 200px;
+}  
+
+}
+
+@media only screen and (max-width : 800px) and (min-height: 1280px) {
+#logo {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 11px;
+    left: 120px; 
+}
+
+#navBtn {
+    margin-left: 55px;
+}
+#navBtnClose {
+    margin-right: 50px;
+}
+
+#navoc a {
+    padding-top: 0px;
+    padding-bottom: 150px;
+    font-size: 3em;
+}
+
+.video-container {
+   width: 100%;
+   height: 100vh;
+
+}
+
+#video-bg {
+margin-top: 30px;
+margin-left:0px;
+height: auto;   
+}
+
+
+#boxContainer {
+    margin-top: 60px;
+    margin-left: -25px;
+  
+}
+
+
+#banner span {
+font-size: 1.4em;
+}
+
+#mutePlay {
+  
+    position: absolute;
+    bottom:  60px;
+    right: 85px;
+}
+
+#scrollObject {
+    position: absolute;
+    top: 435px;
+    bottom: 0%;
+    left: 50%;
+    
+}
+
+
+.sticky {
+    position: relative;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    margin:0;
+    /* padding-top: 60px; */
+    z-index: 1;
+
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+#supdiv {
+ display: inline-block;
+   
+}
+
+#supdivImg {
+    width: 100%;
+    height:85%;
+    margin-top: 50px;
+   
+  
+}
+
+/* New div */
+
+#new {
+
+    padding-top:100px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    width: 100%;
+    height: 100vh !important;
+    z-index: 0;
+    overflow-x: hidden;
+}
+
+#leftColumn {
+    width: 50%;
+}
+
+
+blockquote {
+    position: relative;
+    right:-55px;
+    padding-top: 70px;
+    margin-top: -250px;
+    font-size: 2em;
+    width: 600px !important;
+    text-transform: uppercase;
+
+    text-align: center;
+}
+
+#vrPlayer {
+    width: 100%;
+    height: 130%;
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+
+}
+
+#vrHeadset {
+    height: 90%;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 55px !important;
+}
+
+/* virtual reality div */
+
+#youtubeVideo {
+    width: 80%;
+    height:auto;
+    position: absolute;
+    border: 2px solid gray;
+    top: 15%;
+    left: 6%; 
+    /* transform: translate(-50%, -50%); */
+}
+
+#youtubeVideo iframe {
+width: 100%;
+height: 470px;
+}
+
+#miniUl {
+    width: 100vw;
+}
+
+#miniUl li {
+    padding:20px;
+    font-size: 1.5em !important;
+}
+
+#secondNavDiv {
+    order: 1;
+}
+
+#changingDiv {
+   order: 2; 
+}
+
+#headsets {
+    
+    padding-top: 0px;
+    
+}
+
+#buyVRIMG {
+    padding-bottom: 10px;
+}
+
+#mainBuyDiv button {
+font-size: .9em;
+}
+
+#mainBuyDiv h1 {
+margin-top: -50px;
+
+
+}
+
+#mainBuyDiv iframe {
+height: 350px;
+
+}
+
+#headsets p {
+    font-size: 1.5em;
+    padding-right: 70px;
+}
+
+#headsets h1 {
+    font-size: 1.9em;
+   
+}
+footer {
+    color: #fff;
+    text-align: center;
+    margin-top: 290px;
+    font-size: 1.5em;
+}  
+
+    
+}
+
+@media only screen and (max-width : 768px) and (min-height: 1024px)  {
+
+#logo {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 11px;
+    left: 120px; 
+}
+
+#navBtn {
+    margin-left: 35px;
+}
+#navBtnClose {
+    margin-right: 50px;
+}
+
+#navoc a {
+    padding-top: 0px;
+    padding-bottom: 100px;
+    font-size: 3em;
+}
+
+.video-container {
+   width: 100%;
+   height: 100vh;
+
+}
+
+#video-bg {
+margin-top: 30px;
+margin-left:0px;
+height: auto;   
+}
+
+
+#boxContainer {
+    margin-top: 60px;
+    margin-left: -25px;
+  
+}
+
+
+#banner span {
+font-size: 1.4em;
+}
+
+#mutePlay {
+  
+    position: absolute;
+    bottom:  -20px;
+    right: 85px;
+}
+
+#scrollObject {
+    position: absolute;
+    top: 405px;
+    bottom: 0%;
+    left: 50%;
+    
+}
+
+
+.sticky {
+    position: relative;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    margin:0;
+    /* padding-top: 60px; */
+    z-index: 1;
+
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+#supdiv {
+ display: inline-block;
+   
+}
+
+#supdivImg {
+    width: 100%;
+    height:85%;
+    margin-top: 50px;
+   
+  
+}
+
+/* New div */
+
+#new {
+
+    padding-top:100px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    width: 100%;
+    height: 100vh !important;
+    z-index: 0;
+    overflow-x: hidden;
+}
+
+#leftColumn {
+    width: 50%;
+}
+
+
+blockquote {
+    position: relative;
+    right:-55px;
+    padding-top: 70px;
+    margin-top: -250px;
+    font-size: 2em;
+    width: 600px !important;
+    text-transform: uppercase;
+
+    text-align: center;
+}
+
+#vrPlayer {
+    width: 100%;
+    height: 130%;
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+
+}
+
+#vrHeadset {
+    height: 90%;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 55px !important;
+}
+
+/* virtual reality div */
+
+#youtubeVideo {
+    width: 80%;
+    height:auto;
+    position: absolute;
+    border: 2px solid gray;
+    top: 15%;
+    left: 6%; 
+    /* transform: translate(-50%, -50%); */
+}
+
+#youtubeVideo iframe {
+width: 100%;
+height: 470px;
+}
+
+#miniUl {
+    width: 100vw;
+}
+
+#miniUl li {
+    padding:20px;
+    font-size: 1em !important;
+}
+
+#secondNavDiv {
+    order: 1;
+}
+
+#changingDiv {
+   order: 2; 
+}
+
+#headsets {
+    
+    padding-top: 0px;
+    
+}
+
+#buyVRIMG {
+    padding-bottom: 10px;
+}
+
+#mainBuyDiv button {
+font-size: .9em;
+}
+
+#mainBuyDiv h1 {
+margin-top: -50px;
+
+
+}
+
+#mainBuyDiv iframe {
+height: 350px;
+
+}
+
+#headsets p {
+    font-size: 1.3em;
+    padding-right: 70px;
+}
+
+#headsets h1 {
+    font-size: 1.9em;
+   
+}
+footer {
+    color: #fff;
+    text-align: center;
+    margin-top: 470px;
+    font-size: 1.5em;
+}  
+ 
+}
+
+
+/* mobile  */
+
+@media only screen and (max-width : 480px) {
+
+#logo {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 11px;
+    right:-5px; 
+}
+
+#navBtn {
+    margin-left: 40px;
+}
+#navBtnClose {
+    margin-right: 30px;
+}
+
+
+
+#navoc a {
+    padding-bottom: 60px;
+}
+
+.video-container {
+   
+    width: 110%;
+
+}
+
+#video-bg {
+margin-top: 30px;
+margin-left:0px;
+height: auto;   
+}
+
+
+
+#boxContainer {
+    margin-top: 20px;
+    margin-left: -5px;
+  
+}
+
+
+#banner span {
+font-size: 1em;
+}
+
+#mutePlay {
+   
+    position: absolute;
+    bottom:  10px;
+    right: 35px;
+}
+
+#scrollObject {
+    position: absolute;
+    top: 665px;
+    bottom: 0%;
+    left: 50%;
+    
+}
+
+
+.sticky {
+    position: relative;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    margin:0;
+    /* padding-top: 60px; */
+    z-index: 1;
+
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+#supdiv {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    z-index: -1;
+   
+}
+
+#supdivImg {
+    width: 100%;
+    height:85%;
+    margin-top: -30px;
+  
+}
+
+#new {
+    background-color: #fff;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    width: 105%;
+    height: 105vh;
+    z-index: 0;
+    overflow-x: hidden;
+}
+
+/* virtual reality div */
+
+blockquote {
+    position: relative;
+    right:25px;
+    padding-top: 5px;
+    margin-top: -50px;
+    font-size: 1.2em;
+    width: 100%;
+    text-transform: uppercase;
+
+    text-align: center;
+}
+
+#vrPlayer {
+    width: 100%;
+    height: 110%;
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+
+}
+
+
+#youtubeVideo {
+    width: 80%;
+    position: absolute;
+    border: 2px solid gray;
+    top: 5%;
+    left: 6%; 
+    /* transform: translate(-50%, -50%); */
+}
+
+#youtubeVideo iframe {
+width: 100%;
+height: 270px;
+}
+
+#miniUl {
+    width: 100vw;
+}
+
+#miniUl li {
+    padding:2px;
+    font-size: .8em !important;
+}
+
+#secondNavDiv {
+    order: 1;
+}
+
+#changingDiv {
+   order: 2; 
+}
+
+#headsets {
+    
+    padding-top: 0px;
+    
+}
+
+#buyVRIMG {
+    padding-bottom: 10px;
+}
+
+#mainBuyDiv button {
+font-size: .9em;
+}
+
+#mainBuyDiv h1 {
+padding-top: 10px;
+
+}
+
+#headsets p {
+    font-size: .8em;
+}
+footer {
+    color: #fff;
+    text-align: center;
+    margin-top: 120px;
+    font-size: .9em;
+}
+
+}
+
+@media only screen and (max-width : 414px) {
+
+#logo {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 11px;
+    right:-5px; 
+}
+
+#navBtn {
+    margin-left: 40px;
+}
+#navBtnClose {
+    margin-right: 30px;
+}
+
+
+
+#navoc a {
+    padding-bottom: 60px;
+}
+
+.video-container {
+   
+    width: 110%;
+
+}
+
+#video-bg {
+margin-top: 30px;
+margin-left:0px;
+height: auto;   
+}
+
+
+
+#boxContainer {
+    margin-top: 20px;
+    margin-left: -5px;
+  
+}
+
+
+#banner span {
+font-size: 1em;
+}
+
+#mutePlay {
+   
+    position: absolute;
+    bottom:  10px;
+    right: 35px;
+}
+
+#scrollObject {
+    position: absolute;
+    top: 665px;
+    bottom: 0%;
+    left: 50%;
+    
+}
+
+
+.sticky {
+    position: relative;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    margin:0;
+    /* padding-top: 60px; */
+    z-index: 1;
+
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+#supdiv {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    z-index: -1;
+   
+}
+
+#supdivImg {
+    width: 100%;
+    height:85%;
+    margin-top: -30px;
+  
+}
+
+#new {
+    background-color: #fff;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    width: 105%;
+    height: 105vh;
+    z-index: 0;
+    overflow-x: hidden;
+}
+
+/* virtual reality div */
+
+blockquote {
+    position: relative;
+    right:25px;
+    padding-top: 5px;
+    margin-top: -50px;
+    font-size: 1.2em;
+    width: 100%;
+    text-transform: uppercase;
+
+    text-align: center;
+}
+
+#vrPlayer {
+    width: 100%;
+    height: 110%;
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+
+}
+
+
+#youtubeVideo {
+    width: 80%;
+    position: absolute;
+    border: 2px solid gray;
+    top: 5%;
+    left: 6%; 
+    /* transform: translate(-50%, -50%); */
+}
+
+#youtubeVideo iframe {
+width: 100%;
+height: 270px;
+}
+
+#miniUl {
+    width: 100vw;
+}
+
+#miniUl li {
+    padding:2px;
+    font-size: .8em !important;
+}
+
+#secondNavDiv {
+    order: 1;
+}
+
+#changingDiv {
+   order: 2; 
+}
+
+#headsets {
+    
+    padding-top: 0px;
+    
+}
+
+#buyVRIMG {
+    padding-bottom: 10px;
+}
+
+#mainBuyDiv button {
+font-size: .9em;
+}
+
+#mainBuyDiv h1 {
+padding-top: 10px;
+
+}
+
+#headsets p {
+    font-size: .8em;
+}
+footer {
+    color: #fff;
+    text-align: center;
+    margin-top: 120px;
+    font-size: .9em;
+}
+
+}
+
+@media only screen and (max-width : 411px) {
+
+#logo {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 11px;
+    right:-5px; 
+}
+
+#navBtn {
+    margin-left: 40px;
+}
+#navBtnClose {
+    margin-right: 30px;
+}
+
+
+
+#navoc a {
+    padding-bottom: 60px;
+}
+
+.video-container {
+   
+    width: 110%;
+
+}
+
+#video-bg {
+margin-top: 30px;
+margin-left:0px;
+height: auto;   
+}
+
+
+
+#boxContainer {
+    margin-top: 20px;
+    margin-left: -5px;
+  
+}
+
+
+#banner span {
+font-size: 1em;
+}
+
+#mutePlay {
+   
+    position: absolute;
+    bottom:  10px;
+    right: 35px;
+}
+
+#scrollObject {
+    position: absolute;
+    top: 665px;
+    bottom: 0%;
+    left: 50%;
+    
+}
+
+
+.sticky {
+    position: relative;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    margin:0;
+    /* padding-top: 60px; */
+    z-index: 1;
+
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+#supdiv {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    z-index: -1;
+   
+}
+
+#supdivImg {
+    width: 100%;
+    height:85%;
+    margin-top: -30px;
+  
+}
+
+#new {
+    background-color: #fff;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    width: 105%;
+    height: 105vh;
+    z-index: 0;
+    overflow-x: hidden;
+}
+
+/* virtual reality div */
+
+blockquote {
+    position: relative;
+    right:25px;
+    padding-top: 5px;
+    margin-top: -50px;
+    font-size: 1.2em;
+    width: 100%;
+    text-transform: uppercase;
+
+    text-align: center;
+}
+
+#vrPlayer {
+    width: 100%;
+    height: 110%;
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+
+}
+
+
+#youtubeVideo {
+    width: 80%;
+    position: absolute;
+    border: 2px solid gray;
+    top: 5%;
+    left: 6%; 
+    /* transform: translate(-50%, -50%); */
+}
+
+#youtubeVideo iframe {
+width: 100%;
+height: 270px;
+}
+
+#miniUl {
+    width: 100vw;
+}
+
+#miniUl li {
+    padding:2px;
+    font-size: .8em !important;
+}
+
+#secondNavDiv {
+    order: 1;
+}
+
+#changingDiv {
+   order: 2; 
+}
+
+#headsets {
+    
+    padding-top: 0px;
+    
+}
+
+#buyVRIMG {
+    padding-bottom: 10px;
+}
+
+#mainBuyDiv button {
+font-size: .9em;
+}
+
+#mainBuyDiv h1 {
+padding-top: 10px;
+
+}
+
+#headsets p {
+    font-size: .8em;
+}
+footer {
+    color: #fff;
+    text-align: center;
+    margin-top: 120px;
+    font-size: .9em;
+}
+
+}
+
+@media only screen and (max-width : 375px) {
+
+#logo {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 11px;
+    right:0px; 
+}
+
+#navBtn {
+    margin-left: 45px;
+}
+
+#navoc a {
+    padding-bottom: 50px;
+}
+
+.video-container {
+   
+    width: 110%;
+
+}
+
+#video-bg {
+margin-top: 30px;
+margin-left:0px;
+height: auto;   
+}
+
+
+#boxContainer {
+    margin-top: -30px;
+}
+
+#mutePlay {
+   
+    position: absolute;
+    bottom:  70px;
+    right: 15px;
+}
+
+#scrollObject {
+    position: absolute;
+    top: 750px;
+    bottom: 0%;
+    left: 50%;
+    
+}
+
+
+.sticky {
+    position: relative;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    margin:0;
+    /* padding-top: 60px; */
+    z-index: 1;
+
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+#supdiv {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    z-index: -1;
+   
+}
+
+#supdivImg {
+    width: 100%;
+    height:85%;
+    margin-top: -50px;
+  
+}
+
+#new {
+    background-color: #fff;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    width: 105%;
+    height: 105vh;
+    z-index: 0;
+    overflow-x: hidden;
+}
+
+blockquote {
+    position: relative;
+    right:15px;
+    padding-top: 5px;
+    margin-top: -50px;
+    font-size: .9em;
+    width: 100%;
+    text-transform: uppercase;
+
+    text-align: center;
+}
+
+#vrPlayer {
+    width: 100%;
+    height: 110%;
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+
+}
+
+
+#youtubeVideo {
+    position: absolute;
+    border: 2px solid gray;
+    top: 5%;
+    left: 7%; 
+    /* transform: translate(-50%, -50%); */
+}
+
+#youtubeVideo iframe {
+width: 100%;
+height: 170px;
+}
+
+#miniUl {
+    width: 100vw;
+}
+
+#miniUl li {
+    padding:2px;
+}
+
+#secondNavDiv {
+    order: 1;
+}
+
+#changingDiv {
+   order: 2; 
+}
+
+#headsets {
+    
+    padding-top: 0px;
+    
+}
+
+#buyVRIMG {
+    padding-bottom: 10px;
+}
+
+#mainBuyDiv button {
+font-size: .7em;
+}
+
+#mainBuyDiv h1 {
+padding-top: 10px;
+
+}
+
+#headsets p {
+    font-size: .7em;
+}
+footer {
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    font-size: .9em;
+}
+
+}
+
+
+@media only screen and (max-width : 360px) {
+
+#logo {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 11px;
+    right:10px !important; 
+}
+
+#navBtn {
+    margin-left: 60px;
+}
+
+#navoc a {
+    padding-bottom: 50px;
+}
+
+.video-container {
+   
+    width: 110%;
+   
+
+}
+
+#video-bg {
+margin-top: 50px;
+margin-left:0px;
+height: auto;   
+}
+
+#mutePlay {
+   
+    position: absolute;
+    bottom: -10px;
+    right: 15px;
+}
+
+#supdiv {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    z-index: -1;
+   
+}
+
+#supdivImg {
+    width: 100%;
+    height:85%;
+    margin-top: -60px !important;
+  
+}
+
+
+
+#scrollObject {
+    position: absolute;
+    top: 610px;
+    bottom: 0%;
+    left: 50%;
+    margin-top: -20px;
+    
+}
+
+
+.sticky {
+    position: relative;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    margin:0;
+    /* padding-top: 60px; */
+    z-index: 1;
+
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+
+#boxContainer {
+    margin-top: 20px;
+}
+
+
+#banner span {
+font-size: .7em;
+}
+
+#new {
+    background-color: #fff;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    width: 105%;
+    height: 105vh;
+    z-index: 0;
+    overflow-x: hidden;
+}
+
+/* virtual reality section */
+
+blockquote {
+    position: relative;
+    right: 10px;
+    padding-top: 5px;
+    margin-top: -50px;
+    font-size: 1.2em;
+    width: 100%;
+    text-transform: uppercase;
+
+    text-align: center;
+}
+
+#vrPlayer {
+    width: 100%;
+    height: 110%;
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+
+}
+
+
+#youtubeVideo {
+    position: absolute;
+    border: 2px solid gray;
+   
+    top: 5%;
+    left: 6%; 
+    /* transform: translate(-50%, -50%); */
+}
+
+#youtubeVideo iframe {
+width: 100%;
+height: 170px;
+}
+
+#miniUl {
+    width: 100vw;
+}
+
+#miniUl li {
+    padding:2px;
+}
+
+#secondNavDiv {
+    order: 1;
+}
+
+#changingDiv {
+   order: 2; 
+}
+
+#headsets {
+    
+    padding-top: 0px;
+    
+}
+
+#buyVRIMG {
+    padding-bottom: 10px;
+}
+
+#mainBuyDiv button {
+font-size: .7em;
+}
+
+#mainBuyDiv h1 {
+padding-top: 10px;
+
+}
+footer {
+    color: #fff;
+    text-align: center;
+   margin-top: 140px;
+    font-size: .7em;
+}
+
+}
+
+@media only screen and (max-width : 320px) {
+
+#logo {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 11px;
+    right: 25px !important; 
+}
+
+#navbar {
+    width: 100vw;
+    
+}
+#navBtnClose {
+    z-index: 10;
+}
+
+
+#navoc a {
+    padding-bottom: 30px !important;
+}
+
+.sticky {
+    position: relative;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    margin:0;
+    /* padding-top: 60px; */
+    z-index: 1;
+
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+#mutePlay {
+   
+    position: absolute;
+    top: 215px;
+    right: 15px;
+}
+
+#boxContainer {
+    margin-top: 20px;
+}
+
+
+#banner span {
+font-size: .7em;
+}
+
+#supdiv {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    z-index: -1;
+   
+}
+
+#supdivImg {
+    width: 100%;
+    height:85%;
+    margin-top: -80px !important;
+  
+}
+
+#scrollObject {
+    margin-top: -65px;
+}
+
+#new {
+    background-color: #fff;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    width: 105%;
+    height: 105vh;
+    z-index: 0;
+    overflow-x: hidden;
+}
+
+blockquote {
+    position: relative;
+    right: 10px;
+    padding-top: 5px;
+    margin-top: -50px;
+    margin-left: 0px;
+    font-size: 1.2em;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#vrPlayer {
+    width: 100%;
+    height: 110%;
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+
+}
+
+/* virtual reality row */
+
+
+
+#youtubeVideo {
+    position: absolute;
+    border: 2px solid gray;
+    /* z-index: 99; */
+    top: 5%;
+    left: 7% !important; 
+    /* transform: translate(-50%, -50%); */
+}
+
+#youtubeVideo iframe {
+width: 100%;
+height: 170px;
+}
+
+#miniUl {
+    width: 100vw;
+}
+
+#miniUl li {
+    padding:2px;
+    font-size: .7em !important;
+}
+
+#secondNavDiv {
+    order: 1;
+}
+
+#changingDiv {
+   order: 2; 
+}
+
+#headsets {
+    
+    padding-top: 0px;
+    
+}
+
+#buyVRIMG {
+    padding-bottom: 10px;
+}
+
+#mainBuyDiv button {
+font-size: .7em;
+}
+
+#mainBuyDiv h1 {
+padding-top: 10px;
+
+}
+footer {
+    color: #fff;
+    text-align: center;
+    margin-top: 270px;
+    font-size: .6em;
+}
+
+}
+
+/* media mobile quieries devices with landscape */
+
+@media only screen and (max-width:1366px) and (min-height: 1024px) and (orientation: landscape) {
+
+   
+
+
+}
+
+
+@media only screen and (max-width:812px) and (min-height: 375px) and (orientation: landscape) {
+
+#logo {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 11px;
+    left: 120px; 
+}
+
+#navBtn {
+    margin-left: 85px;
+}
+#navBtnClose {
+    margin-right: 10px;
+}
+
+#navoc a {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.video-container {
+   width: 100%;
+   height: 100vh;
+
+}
+
+#video-bg {
+margin-top: 30px;
+margin-left:0px;
+height: auto;   
+}
+
+
+#boxContainer {
+    margin-top: 130px;
+    margin-left: -3px;
+  
+}
+
+
+#banner span {
+font-size: 1.4em;
+}
+
+#mutePlay {
+   
+    position: absolute;
+    bottom:  -210px;
+    right: 15px;
+}
+
+#scrollObject {
+    position: absolute;
+    top: 335px;
+    bottom: 0%;
+    left: 50%;
+    
+}
+
+
+.sticky {
+    position: relative;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    margin:0;
+    /* padding-top: 60px; */
+    z-index: 1;
+
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+#supdiv {
+ display: none;
+   
+}
+
+#supdivImg {
+    width: 100%;
+    height:85%;
+    margin-top: -30px;
+    display: none;
+  
+}
+
+/* New div */
+
+#new {
+
+    padding-top:100px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    width: 100%;
+    height: 180vh !important;
+    z-index: 0;
+    overflow-x: hidden;
+}
+
+
+
+
+blockquote {
+    position: relative;
+    right:-30px; 
+    padding-top: 0px;
+    /* margin-top: -50px; */
+    font-size: 1.2em;
+    width: 400px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#vrPlayer {
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+
+}
+
+#vrHeadset {
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    /* margin-left: 155px; */
+}
+
+/* virtual reality div */
+
+#youtubeVideo {
+    width: 80%;
+    height:auto ;
+    position: absolute;
+    border: 2px solid gray;
+    top: 20%;
+    left: 8%; 
+    /* transform: translate(-50%, -50%); */
+}
+
+#youtubeVideo iframe {
+width: 100%;
+height: 270px;
+}
+
+#miniUl {
+    width: 100vw;
+}
+
+#miniUl li {
+    padding:20px;
+    font-size: .8em !important;
+}
+
+#secondNavDiv {
+    order: 1;
+}
+
+#changingDiv {
+   order: 2; 
+}
+
+#headsets {
+    padding-top: 0px;
+   
+    
+}
+
+#changingDiv {
+    margin-top: 70px;
+}
+
+#buyVRIMG {
+    padding-bottom: 10px;
+}
+
+#mainBuyDiv button {
+font-size: .9em;
+}
+
+#mainBuyDiv h1 {
+margin-top: 0px ;
+
+}
+
+#mainBuyDiv iframe {
+height: 250px;
+
+}
+
+#headsets p {
+    font-size: .8em;
+}
+footer {
+    color: #fff;
+    text-align: center;
+    margin-top: 750px;
+    font-size: .9em;
+}  
+
+    
+}
+
+@media only screen and (max-width:736px) and (min-height: 414px) and (orientation: landscape) {
+
+#logo {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 11px;
+    left: 100px; 
+}
+
+#navBtn {
+    margin-left: 85px;
+}
+#navBtnClose {
+    margin-right: 10px;
+}
+
+#navoc a {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.video-container {
+   width: 100%;
+   height: 100vh;
+
+}
+
+#video-bg {
+margin-top: 30px;
+margin-left:0px;
+height: auto;   
+}
+
+
+#boxContainer {
+    margin-top: 130px;
+    margin-left: -3px;
+  
+}
+
+
+#banner span {
+font-size: 1.4em;
+}
+
+#mutePlay {
+   
+    position: absolute;
+    bottom:  -230px;
+    right: 15px;
+}
+
+#scrollObject {
+    position: absolute;
+    top: 365px;
+    bottom: 0%;
+    left: 50%;
+    
+}
+
+
+.sticky {
+    position: relative;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    margin:0;
+    /* padding-top: 60px; */
+    z-index: 1;
+
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+#supdiv {
+ display: none;
+   
+}
+
+#supdivImg {
+    width: 100%;
+    height:85%;
+    margin-top: -30px;
+    display: none;
+  
+}
+
+/* New div */
+
+#new {
+
+    padding-top:100px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    width: 100%;
+    height: 200vh !important;
+    z-index: 0;
+    overflow-x: hidden;
+}
+
+#leftColumn {
+    width: 50%;
+}
+
+
+blockquote {
+    position: relative;
+    right:-155px;
+    padding-top: 70px;
+    /* margin-top: -50px; */
+    font-size: 1.2em;
+    width: 400px;
+    text-transform: uppercase;
+
+    text-align: center;
+}
+
+#vrPlayer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+
+}
+
+#vrHeadset {
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 155px;
+}
+
+/* virtual reality div */
+
+#youtubeVideo {
+    width: 80%;
+    height:auto ;
+    position: absolute;
+    border: 2px solid gray;
+    top: 15%;
+    left: 8%; 
+    /* transform: translate(-50%, -50%); */
+}
+
+#youtubeVideo iframe {
+width: 100%;
+height: 270px;
+}
+
+#miniUl {
+    width: 100vw;
+}
+
+#miniUl li {
+    padding:20px;
+    font-size: .8em !important;
+}
+
+#secondNavDiv {
+    order: 1;
+}
+
+#changingDiv {
+   order: 2; 
+}
+
+#headsets {
+    
+    padding-top: 0px;
+    
+}
+
+#buyVRIMG {
+    padding-bottom: 10px;
+}
+
+#mainBuyDiv button {
+font-size: .9em;
+}
+
+#mainBuyDiv h1 {
+margin-top: -50px;
+
+}
+
+#mainBuyDiv iframe {
+height: 250px;
+
+}
+
+#headsets p {
+    font-size: .8em;
+}
+footer {
+    color: #fff;
+    text-align: center;
+    margin-top: 640px;
+    font-size: .9em;
+}  
+
+}
+
+
+@media only screen and (max-width:731px) and (min-height: 411px) and (orientation: landscape) {
+
+#logo {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 11px;
+    left: 100px; 
+}
+
+#navBtn {
+    margin-left: 85px;
+}
+#navBtnClose {
+    margin-right: 10px;
+}
+
+#navoc a {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.video-container {
+   width: 100%;
+   height: 100vh;
+
+}
+
+#video-bg {
+margin-top: 30px;
+margin-left:0px;
+height: auto;   
+}
+
+
+#boxContainer {
+    margin-top: 130px;
+    margin-left: -3px;
+  
+}
+
+
+#banner span {
+font-size: 1.4em;
+}
+
+#mutePlay {
+   
+    position: absolute;
+    bottom:  -230px;
+    right: 15px;
+}
+
+#scrollObject {
+    position: absolute;
+    top: 365px;
+    bottom: 0%;
+    left: 50%;
+    
+}
+
+
+.sticky {
+    position: relative;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    margin:0;
+    /* padding-top: 60px; */
+    z-index: 1;
+
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+#supdiv {
+ display: none;
+   
+}
+
+#supdivImg {
+    width: 100%;
+    height:85%;
+    margin-top: -30px;
+    display: none;
+  
+}
+
+/* New div */
+
+#new {
+
+    padding-top:100px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    width: 100%;
+    height: 200vh !important;
+    z-index: 0;
+    overflow-x: hidden;
+}
+
+#leftColumn {
+    width: 50%;
+}
+
+
+blockquote {
+    position: relative;
+    right:-155px;
+    padding-top: 70px;
+    /* margin-top: -50px; */
+    font-size: 1.2em;
+    width: 400px;
+    text-transform: uppercase;
+
+    text-align: center;
+}
+
+#vrPlayer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+
+}
+
+#vrHeadset {
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 155px;
+}
+
+/* virtual reality div */
+
+#youtubeVideo {
+    width: 80%;
+    height:auto ;
+    position: absolute;
+    border: 2px solid gray;
+    top: 15%;
+    left: 8%; 
+    /* transform: translate(-50%, -50%); */
+}
+
+#youtubeVideo iframe {
+width: 100%;
+height: 270px;
+}
+
+#miniUl {
+    width: 100vw;
+}
+
+#miniUl li {
+    padding:20px;
+    font-size: .8em !important;
+}
+
+#secondNavDiv {
+    order: 1;
+}
+
+#changingDiv {
+   order: 2; 
+}
+
+#headsets {
+    
+    padding-top: 0px;
+    
+}
+
+#buyVRIMG {
+    padding-bottom: 10px;
+}
+
+#mainBuyDiv button {
+font-size: .9em;
+}
+
+#mainBuyDiv h1 {
+margin-top: -50px;
+
+}
+
+#mainBuyDiv iframe {
+height: 250px;
+
+}
+
+#headsets p {
+    font-size: .8em;
+}
+footer {
+    color: #fff;
+    text-align: center;
+    margin-top: 570px;
+    font-size: .9em;
+}  
+
+}
+
+@media only screen and (max-width:667px) and (min-height: 375px) and (orientation: landscape) {
+
+#logo {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 11px;
+    left: 80px; 
+}
+
+#navBtn {
+    margin-left: 75px;
+}
+#navBtnClose {
+    margin-right: 10px;
+}
+
+#navoc a {
+    padding-top: 0px;
+    padding-bottom: 15px;
+    font-size: 1.4em;
+}
+
+.video-container {
+   width: 100%;
+   height: 100vh;
+
+}
+
+#video-bg {
+margin-top: 30px;
+margin-left:0px;
+height: auto;   
+}
+
+
+#boxContainer {
+    margin-top: 130px;
+    margin-left: -3px;
+  
+}
+
+
+#banner span {
+font-size: 1em;
+}
+
+#mutePlay {
+   
+    position: absolute;
+    bottom:  -200px;
+    right: 15px;
+}
+
+#scrollObject {
+    position: absolute;
+    top: 335px;
+    bottom: 0%;
+    left: 50%;
+    
+}
+
+
+.sticky {
+    position: relative;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    margin:0;
+    /* padding-top: 60px; */
+    z-index: 1;
+
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+#supdiv {
+ display: none;
+   
+}
+
+#supdivImg {
+    width: 100%;
+    height:85%;
+    margin-top: -30px;
+    display: none;
+  
+}
+
+/* New div */
+
+#new {
+
+    padding-top:100px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    width: 100%;
+    height: 200vh !important;
+    z-index: 0;
+    overflow-x: hidden;
+}
+
+#leftColumn {
+    width: 50%;
+}
+
+
+blockquote {
+    position: relative;
+    right:-115px;
+    padding-top: 30px;
+    /* margin-top: -50px; */
+    font-size: 1.2em;
+    width: 400px;
+    text-transform: uppercase;
+
+    text-align: center;
+}
+
+#vrPlayer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+
+}
+
+#vrHeadset {
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 115px;
+}
+
+/* virtual reality div */
+
+#youtubeVideo {
+    width: 80%;
+    position: absolute;
+    border: 2px solid gray;
+    top: 10%;
+    left: 8%; 
+    /* transform: translate(-50%, -50%); */
+}
+
+#youtubeVideo iframe {
+width: 100%;
+height: 270px;
+}
+
+#miniUl {
+    width: 100vw;
+}
+
+#miniUl li {
+    padding:20px;
+    font-size: .8em !important;
+}
+
+#secondNavDiv {
+    order: 1;
+}
+
+#changingDiv {
+   order: 2; 
+}
+
+#headsets {
+    
+    padding-top: 0px;
+    
+}
+
+#buyVRIMG {
+    padding-bottom: 10px;
+}
+
+#mainBuyDiv button {
+font-size: .9em;
+}
+
+#mainBuyDiv h1 {
+margin-top: -50px;
+
+}
+
+#mainBuyDiv iframe {
+height: 250px;
+
+}
+
+#headsets p {
+    font-size: .8em;
+}
+footer {
+    color: #fff;
+    text-align: center;
+    margin-top: 650px;
+    font-size: .9em;
+}  
+
+}
+
+
+@media only screen and (max-width:640px) and (min-height: 360px) and (orientation: landscape) {
+
+ #logo {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 11px;
+    left: 80px; 
+}
+
+#navBtn {
+    margin-left: 75px;
+}
+#navBtnClose {
+    margin-right: 10px;
+}
+
+#navoc a {
+    padding-top: 0px;
+    padding-bottom: 15px;
+    font-size: 1.4em;
+}
+
+.video-container {
+   width: 100%;
+   height: 100vh;
+
+}
+
+#video-bg {
+margin-top: 30px;
+margin-left:0px;
+height: auto;   
+}
+
+
+#boxContainer {
+    margin-top: 100px;
+    margin-left: -3px;
+  
+}
+
+
+#banner span {
+font-size: 1em;
+}
+
+#mutePlay {
+   
+    position: absolute;
+    bottom:  -200px;
+    right: 15px;
+}
+
+#scrollObject {
+    position: absolute;
+    top: 315px;
+    bottom: 0%;
+    left: 50%;
+    
+}
+
+
+.sticky {
+    position: relative;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    margin:0;
+    /* padding-top: 60px; */
+    z-index: 1;
+
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+#supdiv {
+ display: none;
+   
+}
+
+#supdivImg {
+    width: 100%;
+    height:85%;
+    margin-top: -30px;
+    display: none;
+  
+}
+
+/* New div */
+
+#new {
+
+    padding-top:100px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    width: 100%;
+    height: 200vh !important;
+    z-index: 0;
+    overflow-x: hidden;
+}
+
+#leftColumn {
+    width: 50%;
+}
+
+
+blockquote {
+    position: relative;
+    right:-95px;
+    padding-top: 30px;
+    /* margin-top: -50px; */
+    font-size: 1.2em;
+    width: 400px;
+    text-transform: uppercase;
+
+    text-align: center;
+}
+
+#vrPlayer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+
+}
+
+#vrHeadset {
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 95px;
+}
+
+/* virtual reality div */
+
+#youtubeVideo {
+    width: 80%;
+    position: absolute;
+    border: 2px solid gray;
+    top: 10%;
+    left: 8%; 
+    /* transform: translate(-50%, -50%); */
+}
+
+#youtubeVideo iframe {
+width: 100%;
+height: 270px;
+}
+
+#miniUl {
+    width: 100vw;
+}
+
+#miniUl li {
+    padding:20px;
+    font-size: .8em !important;
+}
+
+#secondNavDiv {
+    order: 1;
+}
+
+#changingDiv {
+   order: 2; 
+}
+
+#headsets {
+    
+    padding-top: 0px;
+    
+}
+
+#buyVRIMG {
+    padding-bottom: 10px;
+}
+
+#mainBuyDiv button {
+font-size: .9em;
+}
+
+#mainBuyDiv h1 {
+margin-top: -50px;
+
+}
+
+#mainBuyDiv iframe {
+height: 250px;
+
+}
+
+#headsets p {
+    font-size: .8em;
+}
+footer {
+    color: #fff;
+    text-align: center;
+    margin-top: 620px;
+    font-size: .9em;
+}  
+
+
+}
+
+@media only screen and (max-width:568px) and (min-height: 320px) and (orientation: landscape) {
+
+ #logo {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 11px;
+    left: 50px; 
+}
+
+#navBtn {
+    margin-left: 70px;
+}
+#navBtnClose {
+    margin-right: 40px;
+}
+
+
+
+#navoc a {
+    padding-top: 0px;
+    padding-bottom: 5px;
+    font-size: 1.4em;
+}
+
+.video-container {
+   width: 100%;
+   height: 100vh;
+
+}
+
+#video-bg {
+margin-top: 30px;
+margin-left:0px;
+height: auto;   
+}
+
+
+
+#boxContainer {
+    margin-top: 100px;
+    margin-left: -3px;
+  
+}
+
+
+#banner span {
+font-size: 1em;
+}
+
+#mutePlay {
+   
+    position: absolute;
+    bottom:  -180px;
+    right: 15px;
+}
+
+#scrollObject {
+    position: absolute;
+    top: 285px;
+    bottom: 0%;
+    left: 50%;
+    
+}
+
+
+.sticky {
+    position: relative;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    margin:0;
+    /* padding-top: 60px; */
+    z-index: 1;
+
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+#supdiv {
+ display: none;
+   
+}
+
+#supdivImg {
+    width: 100%;
+    height:85%;
+    margin-top: -30px;
+    display: none;
+  
+}
+
+/* New div */
+
+#new {
+
+    padding-top:100px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    width: 100%;
+    height: 200vh !important;
+    z-index: 0;
+    overflow-x: hidden;
+}
+
+#leftColumn {
+    width: 50%;
+}
+
+
+blockquote {
+    position: relative;
+    right:-75px;
+    padding-top: 5px;
+    /* margin-top: -50px; */
+    font-size: 1.2em;
+    width: 400px;
+    text-transform: uppercase;
+
+    text-align: center;
+}
+
+#vrPlayer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+
+}
+
+#vrHeadset {
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 70px;
+}
+
+/* virtual reality div */
+
+#youtubeVideo {
+    width: 80%;
+    position: absolute;
+    border: 2px solid gray;
+    top: 5%;
+    left: 9%; 
+    /* transform: translate(-50%, -50%); */
+}
+
+#youtubeVideo iframe {
+width: 100%;
+height: 270px;
+}
+
+#miniUl {
+    width: 100vw;
+}
+
+#miniUl li {
+    padding:20px;
+    font-size: .8em !important;
+}
+
+#secondNavDiv {
+    order: 1;
+}
+
+#changingDiv {
+   order: 2; 
+}
+
+#headsets {
+    
+    padding-top: 0px;
+    
+}
+
+#buyVRIMG {
+    padding-bottom: 10px;
+}
+
+#mainBuyDiv button {
+font-size: .9em;
+}
+
+#mainBuyDiv h1 {
+margin-top: -50px;
+
+}
+
+#mainBuyDiv iframe {
+height: 250px;
+
+}
+
+#headsets p {
+    font-size: .8em;
+}
+footer {
+    color: #fff;
+    text-align: center;
+    margin-top: 620px;
+    font-size: .9em;
+}  
+
+
+}
+
+
+
+
+
+
+

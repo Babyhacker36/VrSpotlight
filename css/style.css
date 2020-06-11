@@ -1,0 +1,942 @@
+body {
+    font-size: 18px;
+    padding: 0;
+    overflow-x:hidden;
+    background-color: #000;
+    letter-spacing: 0px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif";
+}
+
+
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    /* margin-right: auto;
+    margin-left: auto */
+}
+
+
+/* Navigation Section */
+#navbar {
+    /* overflow-y: hidden; */
+    color: white;
+    width: 100%;
+    height: 50px;
+    padding: 0 80px;
+    /* background: rgba(0, 0, 0, .6); */
+    background-color: #000;
+    text-align: center;
+    z-index: 99;
+    
+}
+
+.nav-item a {
+    color: #00ffff !important;
+}
+
+#navbarLeft {
+    float: left;
+    width: 10%; 
+    position: relative; 
+    top: 30%; 
+    right: 30%; 
+    transform: translateY(-50%); 
+}
+
+#navbarRight {
+    float: left;
+    width: 10%; 
+    position: relative;
+    top: 15%; 
+
+}
+
+#navbarCenter {
+    visibility: hidden;
+    width: 80%;
+    float: left;
+   
+    /* position: relative;
+    top: 50%; 
+    transform: translateY(-50%); */
+    text-align: center;
+
+}
+
+/* hightlight of the active link */
+
+ul > li.active > a {
+    border-bottom: 1px solid #00ffff;
+}
+ul > li.active > a:hover {
+    border: none;
+}
+li:hover {
+cursor: pointer;
+}
+
+#navbarCenter a {
+    float: none;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 5px;
+    margin: 15px 20px 0;
+    position: relative;
+    text-transform: uppercase;
+}
+
+/* navigation animation */
+#navbarCenter a:before {
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid transparent;
+}
+ #navbarCenter a:hover:after {
+    animation: animateNav 0.4s linear forwards;
+}
+@keyframes animateNav {
+    0% {
+        width: 0;
+        height: 0;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    }
+
+    50% {
+        width: 100%;
+        height: 0;
+        border-top-color: #00ffff;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    }
+
+    100% {
+        width: 100%;
+        height: 100%;
+        border-top-color: #00ffff;
+        border-right-color: #00ffff;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    }
+
+}
+
+/* set two  */
+#navbarCenter a:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border: 1px solid transparent;
+
+}
+#navbarCenter a:hover:before {
+    animation: animateNav2 0.4s linear forwards;
+}
+@keyframes animateNav2 {
+    0% {
+        width: 0;
+        height: 0;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    }
+
+    50% {
+        width: 0;
+        height: 100%;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: #00ffff;
+        border-left-color: #00ffff;
+    }
+
+    100% {
+        width: 100%;
+        height: 100%;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: #00ffff;
+        border-left-color: #00ffff;
+
+    }
+
+}
+
+/* hambgurger menu */
+
+i {
+    color: #00ffff;
+    margin-left: 45px;
+    /* z-index: 99; */
+}
+
+/* navbar logo */
+#logo {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 10px;
+    right: 20px; 
+}
+
+/* sticky header Via javascript */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    margin:0;
+    padding-top: 60px;
+    z-index: 99;
+
+}
+/* header div  */
+#videoBackground {
+    width: 100%;
+    height: 40vh;
+    text-align: center;
+    position: relative;
+    border: none;
+    z-index: 1;
+    
+
+}
+
+.video-container {
+    /* z-index: -100; */
+    /* background: red; */
+    width: 100%;
+    /* height: 40vh; */
+    background-position: center center;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+    z-index: -1;
+
+}
+
+#video-bg {
+margin-top: 50px;
+width:100%;
+height: auto;   
+}
+
+#mutePlay {
+   
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+#mutePlay i {
+   cursor: pointer;
+   font-size: 1em;
+   color:#fff
+}
+
+
+#supdiv {
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    z-index: -1;
+   
+}
+
+#supdivImg {
+    width: 100%;
+    height:85%;
+    
+    
+}
+
+/* image to supplement space */
+
+/* video background banner  */
+#boxContainer {
+    position: absolute;
+    width: 90%;
+    height: 30px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    background-position: center center;
+
+}
+/* feel the power text */
+
+#boxContainer span {
+    font-size: .8em;
+
+}
+
+/* animated scroll button */
+
+#scrollObject {
+    position: absolute;
+    cursor: pointer;
+    top: 530px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    right: 0;
+    bottom: 0;
+    width: 110px;
+    height: 55px;
+    z-index: 1;
+}
+
+.mousey {
+    /* margin-top: 320px; */
+    /* z-index: 99; */
+    width: 1px;
+    cursor: pointer;
+    height: 30px;
+    padding: 10px 15px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    opacity: 0.75px;
+    box-sizing: content-box;
+    text-align: center;
+    position: relative;
+    /* top: 10px; */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.6;
+
+}
+
+#scrollObject span {
+    /* margin-bottom: -900px; */
+    color: #fff;
+    font-size: 12px;
+    z-index: 2;
+    text-transform: uppercase;
+    position: relative;
+    top: 15px;
+    transform: translate(-50%, -50%);
+    letter-spacing: 2px;
+    /* z-index: -4; */
+}
+
+.scroller {
+    width: 3px;
+    height: 10px;
+    border-radius: 25%;
+    background-color: #fff;
+    animation-name: scroll;
+    animation-duration: 2.2s;
+    animation-timing-function: cubic-bezier(.15, .41, .69, .94);
+    animation-iteration-count: infinite;
+    text-align: center;
+}
+@keyframes scroll {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(15px);
+        opacity: 0;
+    }
+}
+
+/* banner section  */
+
+#bannerBox {
+
+    padding: 10px;
+    border: 3px solid #00ffff;
+    box-shadow: 0 50px 100px rgb(23, 32, 90);
+    border: 2px solid #00ffff;
+}
+
+#banner {
+    color: #ffffff;
+    /* font-size: 50px; */
+    /* border: 3px solid #ffffff; */
+    padding: 15px;
+    position: relative;
+
+}
+
+/* animation on box div */
+#banner:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 3px solid #fff;
+    animation: animate 3s linear forwards;
+
+}
+@keyframes animate {
+    0% {
+        width: 100%;
+        height: 0;
+        border-top-color: #fff;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+
+    }
+
+    50% {
+        width: 100%;
+        height: 100%;
+        border-top-color: #fff;
+        border-right-color: #fff;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    }
+
+    75% {
+        width: 100%;
+        height: 100%;
+        border-top-color: #fff;
+        border-right-color: #fff;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    }
+
+    100% {
+        width: 100%;
+        height: 100%;
+        border-top-color: #fff;
+        border-right-color: #fff;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    }
+
+}
+
+/* set two  */
+#banner:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 3px solid #fff;
+    animation: animate2 4s linear forwards;
+
+}
+@keyframes animate2 {
+    0% {
+        width: 0;
+        height: 0;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: #fff;
+    }
+
+    50% {
+        width: 0;
+        height: 100%;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: #fff;
+    }
+
+    75% {
+        width: 0;
+        height: 100%;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: #fff;
+        border-left-color: #fff;
+    }
+
+    100% {
+        width: 100%;
+        height: 100%;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: #fff;
+        border-left-color: #fff;
+
+    }
+
+}
+
+/* slide in menu */
+
+
+
+
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0);
+    background-color: rgba(0, 0, 0, 9);
+    opacity: 0.9;
+    overflow-x: hidden;
+    transition: 0.9s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    margin-right: -45px;
+    font-size: 36px;
+    color: #ffffff;
+    display: block;
+    transition: 0.5s;
+    text-align: center;
+}
+.overlay a:hover {
+    color: #818181;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: -15px;
+    right: 45px;
+    font: 60px;
+}
+
+/* smooth scroll of the sections via the navigation bar */
+
+/* ======Sections ===== */
+
+/* introduction of vr section */
+
+/* #new div section */
+
+#new {
+    background-color: #fff;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+    overflow-x: hidden;
+}
+
+/* animation left */
+
+/* column left  */
+
+#leftColumn {
+    position: relative;
+}
+
+blockquote {
+    padding-top: 15px;
+    font-size: 1.2em;
+    width: 100%;
+    text-transform: uppercase;
+
+    text-align: center;
+}
+
+#new span {
+    width: 80%;
+    margin-left: 10%;
+    background-color: #000;
+    display: block;
+    height: 5px;
+    text-align: center;
+    z-index: -1;
+}
+
+#vrHeadset {
+    width: 80%;
+    height: 45%;
+    z-index: -2;
+    margin-left: 30px;
+
+}
+
+#box {
+    position: absolute;
+    top: 25%;
+}
+
+/* Colum right */
+#box2 {
+    height: 100%;
+    width: 100%;
+
+}
+
+#vrPlayer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+
+}
+
+/* #virtual reality section  */
+
+#youtubeVideo {
+    position: absolute;
+    border: 1px solid gray;
+    /* z-index: 99; */
+    top: 40%;
+    left: 7%; 
+    /* transform: translate(-50%, -50%); */
+}
+
+#youtubeVideo iframe {
+width: 100%;
+height: 170px;
+}
+
+#virtualReality {
+    position: relative;
+    background-image: url('/vrspotlight/img/vddiv9.jpg');
+    background-position: center center;
+    background-size: 100% 100%;
+    /* width: 100%; */
+    height: 100vh;
+    overflow-x: hidden;
+    box-sizing: content-box;
+
+}
+
+#vrRow {
+overflow-x: hidden;
+}
+
+/* Games section */
+
+.styleContain {
+    /* width: 90%; */
+    background-color: #000;
+
+}
+
+#games {
+    width: 100%;
+    height: 100vh;
+    border-bottom: 5px solid #000;
+
+}
+
+#games p {
+    margin-top: 150px;
+    color: white;
+}
+
+#topSection {
+    height: 33.33%;
+    border-top: 5px solid black;
+}
+
+/* controls the inner rows in the right top section for the game images  */
+#rowTop {
+    height: 50%;
+}
+
+#rowBottom {
+    height: 50%;
+}
+
+#gamesPic1 {
+    background-image: url('/Design/Images/vrgame2.jpg');
+    background-position: center center;
+    background-size: 100% 100%;
+    border: 5px solid black;
+    box-sizing: border-box;
+
+}
+
+#gamesPic2 {
+    background-image: url('/Design/Images/vrgame1.jpg');
+    background-position: center center;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    border: 5px solid black;
+    box-sizing: border-box;
+
+}
+#gamesPic3 {
+    background-image: url('/Design/Images/vrgame3.jpg');
+    background-position: center center;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    border: 5px solid black;
+    box-sizing: border-box;
+
+}
+#gamesPic4 {
+    background-image: url('/Design/Images/vrgame4.jpg');
+    background-position: center center;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    border: 5px solid black;
+    box-sizing: border-box;
+
+}
+#gamesPic5 {
+    background-image: url('/Design/Images/vrgame4.png');
+    background-position: center center;
+    background-size: 100% 100%;
+    border: 5px solid black;
+    box-sizing: border-box;
+
+}
+
+/* middile section in games */
+
+#middleRow {
+    height: 33.33%;
+}
+
+#gamesPic6 {
+    background-image: url('/Design/Images/vrgame5.jpg');
+    background-position: center center;
+    background-size: 100% 100%;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+#gamesPic7 {
+    background-image: url('/Design/Images/vrgame6.jpg');
+    background-position: center center;
+    background-size: 100% 100%;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+#gamesPic8 {
+    background-image: url('/Design/Images/vrgame7.jpg');
+    background-position: center center;
+    background-size: 100% 100%;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+/* bottom section  */
+
+#bottomRow {
+    height: 33.33%;
+}
+
+#gamesPic9 {
+    background-image: url('/Design/Images/vrgame8.jpg');
+    background-position: center center;
+    background-size: 100% 100%;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+#gamesPic10 {
+    background-image: url('/Design/Images/vrgame8.png');
+    background-position: center center;
+    background-size: 100% 100%;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+/* headset section */
+
+#miniUl {
+    list-style-type: none;
+    width: 100%;
+ 
+    margin-left: -20px;
+}
+
+ul#miniUl li {
+    list-style-type: none;
+    color: #00ffff; 
+  
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    
+    /* width: 2%; */
+    /* width: 100%; */
+    /* z-index: 3; */
+
+}
+
+ul#miniUl li a {
+    color: #fff;
+}
+
+/* classes that will make the information section appear and disappear */
+
+#changingDiv {
+/* margin-top: -200px; */
+padding-top: 0;
+}
+
+
+#headsets h1 {
+    /* padding: 0 15px; */
+    font-size: .7em;
+    line-height: 1.2em;
+    text-align: center;
+}
+
+#headsets p {
+    padding: 0 15px;
+    font-size: .6em;
+    line-height: 1.2em;
+    color: #fff;
+    text-align: left;
+}
+
+#headsets iframe {
+   width: 80%;
+    height: auto;  
+}
+
+
+
+.secondNavDiv {
+    text-align: center;
+   
+
+}
+
+#headsets {
+    height: 100vh;
+    color: #fff; 
+    padding-top: 60px;
+    font-size: 1.2em;
+    background-image: url('/vrspotlight/img/headsetbackgrounddark.png');
+    background-position: center center;
+    background-size: 100% 100%;
+    text-align: center;
+    
+}
+
+/* images  */
+
+#buyVRIMG {
+      width:80%;
+    height: auto; 
+}
+
+
+/* buy oculus div */
+
+
+#navigation ul li {
+color: #fff;
+}
+
+#divC1, #divC2, #divC3, #divC4 {
+    padding-top: 10px;
+
+}
+
+#navigation  {
+padding-bottom: 20px;
+}
+
+#OCRBuyNowText {
+    margin-top: -25px;
+    /* padding: 0 80px; */
+    text-align: center;
+    z-index: 1;
+}
+
+/* #OCRBuyNowText button  {
+    margin-bottom: 10px;
+} */
+
+
+
+#CheckOut {
+    display: inline;
+}
+
+/* Images */
+#buyOculus {
+    height: 550px;
+    width: 50%;
+    margin-top: -20px;
+    margin-bottom: -40px;
+    display:block;
+    position: relative;
+    left: 25%;
+    
+}
+
+#buyPSVR {
+    height: 350px;
+    width: 50%;
+    margin-top: -20px;
+    margin-bottom: -40px;
+    display:block;
+    position: relative;
+    left: 25%;
+    
+}
+
+#buySamsung {
+    height: 350px;
+    width: 50%;
+    margin-top: -20px;
+    margin-bottom: -40px;
+    display:block;
+    position: relative;
+    left: 25%;
+    
+}
+
+#buyNowDivImage
+/* hidden side navigation  */
+
+#sideNav, #sideNav1 {
+    /* padding-left: 30px; */
+    width: 33.33%;
+    height: 100%;
+   
+    z-index: 1;
+    font: white;
+    overflow: hidden;  
+}
+
+
+footer {
+    color: #fff;
+    text-align: center;
+    height: 30px;
+    word-spacing: 3px;
+}
+
+
+
