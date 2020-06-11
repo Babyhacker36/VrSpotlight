@@ -262,21 +262,27 @@ $(document).ready(function () {
 
 
 
-const volumeUp = $('#mutePlay > i:last-child').hide()
-const volumeMute = $('#mutePlay > i:first-child')
+const volumeUp = $('#mutePlay > i:last-child').show()
+const volumeMute = $('#mutePlay > i:first-child').hide()
 const mainVideo = document.getElementById('video-bg');
-volumeMute.click(() => {
-    mainVideo.muted = true;
-    volumeMute.hide()
-    volumeUp.show()
-    
-
-})
-
 volumeUp.click(() => {
     mainVideo.muted = false;
     volumeMute.show()
     volumeUp.hide()
     
+})
+
+
+
+volumeMute.click(() => {
+    mainVideo.muted = true;
+    volumeUp.show()
+    volumeMute.hide()
+    
+    
 
 })
+
+
+
+
