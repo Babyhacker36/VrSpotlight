@@ -1,6 +1,7 @@
 body {
     font-size: 18px;
     padding: 0;
+    margin: 0;
     overflow-x:hidden;
     background-color: #000;
     letter-spacing: 0px;
@@ -835,7 +836,7 @@ padding-top: 0;
     color: #fff; 
     padding-top: 60px;
     font-size: 1.2em;
-    background-image: url('/vrspotlight/img/headsetbackgrounddark.png');
+    background-image: url('/img/headsetbackgrounddark.png');
     background-position: center center;
     background-size: 100% 100%;
     text-align: center;
