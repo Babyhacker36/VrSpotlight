@@ -671,7 +671,7 @@ overflow-x: hidden;
 }
 
 #gamesPic1 {
-    background-image: url('/Design/Images/vrgame2.jpg');
+    background-image: url('../img/vrgame2.jpg');
     background-position: center center;
     background-size: 100% 100%;
     border: 5px solid black;
@@ -680,7 +680,7 @@ overflow-x: hidden;
 }
 
 #gamesPic2 {
-    background-image: url('/Design/Images/vrgame1.jpg');
+    background-image: url('../img/vrGame1.jpg');
     background-position: center center;
     background-size: 100% 100%;
     box-sizing: border-box;
@@ -689,7 +689,7 @@ overflow-x: hidden;
 
 }
 #gamesPic3 {
-    background-image: url('/Design/Images/vrgame3.jpg');
+    background-image: url('../img/vrgame3.jpg');
     background-position: center center;
     background-size: 100% 100%;
     box-sizing: border-box;
@@ -698,7 +698,7 @@ overflow-x: hidden;
 
 }
 #gamesPic4 {
-    background-image: url('/Design/Images/vrgame4.jpg');
+    background-image: url('../img/vrgame4.jpg');
     background-position: center center;
     background-size: 100% 100%;
     box-sizing: border-box;
@@ -707,7 +707,7 @@ overflow-x: hidden;
 
 }
 #gamesPic5 {
-    background-image: url('/Design/Images/vrgame4.png');
+    background-image: url('../img/vrgame4.png');
     background-position: center center;
     background-size: 100% 100%;
     border: 5px solid black;
@@ -722,7 +722,7 @@ overflow-x: hidden;
 }
 
 #gamesPic6 {
-    background-image: url('/Design/Images/vrgame5.jpg');
+    background-image: url('../img/vrgame5.jpg');
     background-position: center center;
     background-size: 100% 100%;
     border: 5px solid black;
@@ -730,7 +730,7 @@ overflow-x: hidden;
 }
 
 #gamesPic7 {
-    background-image: url('/Design/Images/vrgame6.jpg');
+    background-image: url('../img/vrgame6.jpg');
     background-position: center center;
     background-size: 100% 100%;
     border: 5px solid black;
@@ -738,7 +738,7 @@ overflow-x: hidden;
 }
 
 #gamesPic8 {
-    background-image: url('/Design/Images/vrgame7.jpg');
+    background-image: url('../img/vrgame7.jpg');
     background-position: center center;
     background-size: 100% 100%;
     border: 5px solid black;
@@ -752,14 +752,14 @@ overflow-x: hidden;
 }
 
 #gamesPic9 {
-    background-image: url('/Design/Images/vrgame8.jpg');
+    background-image: url('../img/vrgame8.jpg');
     background-position: center center;
     background-size: 100% 100%;
     border: 5px solid black;
     box-sizing: border-box;
 }
 #gamesPic10 {
-    background-image: url('/Design/Images/vrgame8.png');
+    background-image: url('../img/vrgame8.png');
     background-position: center center;
     background-size: 100% 100%;
     border: 5px solid black;
